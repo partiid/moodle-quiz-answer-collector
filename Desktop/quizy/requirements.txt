@@ -1,3 +1,4 @@
 pypdf
 bs4
 reportlab
+pdfminer.six

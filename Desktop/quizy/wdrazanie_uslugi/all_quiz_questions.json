@@ -1,0 +1,1141 @@
+[
+    {
+        "question_text": "Przygotowujesz fazę wdrożenia nowej usługi. Będzie to aplikacja zapewniająca bezpieczeństwo informacji na urządzeniach mobilnych. Do czego wykorzystasz proces planowania i wsparcia wdrożenia?",
+        "all_answers": [
+            "Proces ten pozwoli upewnić się, że wiedza w organizacji jest agregowana i dostępna podczas fazy wdrożenia",
+            "Proces ten pozwoli efektywnie zarządzać zmianami stosując polityki wymagane do tego procesu",
+            "Całościowo wesprze fazę wdrożenia aplikacji. Pozwoli wykorzystać wiedzę i zarządzanie zmianą oraz polityki do sprawnego wprowadzenia aplikacji na rynek. Jednakże zarządzanie budżetem projektu przekaże działowi finansów",
+            "Całościowo wesprze fazę wdrożenia aplikacji. Pozwoli wykorzystać wiedzę i zarządzanie zmianą oraz polityki do sprawnego wprowadzenia aplikacji na rynek."
+        ],
+        "correct_answers": [
+            "Całościowo wesprze fazę wdrożenia aplikacji. Pozwoli wykorzystać wiedzę i zarządzanie zmianą oraz polityki do sprawnego wprowadzenia aplikacji na rynek."
+        ]
+    },
+    {
+        "question_text": "W ramach dużej firmy IT, wprowadzasz nowe oprogramowanie dla klienta bankowego. Którą z poniższych polityk wykorzystasz do ewidencjonowania swojego projektu wdrożenia?",
+        "all_answers": [
+            "Role i odpowiedzialności w procesie wdrożenia",
+            "Polityka bezpieczeństwa",
+            "Polityka strukturyzacji projektów",
+            "Polityka identyfikacji"
+        ],
+        "correct_answers": [
+            "Polityka identyfikacji"
+        ]
+    },
+    {
+        "question_text": "Wartością z wprowadzenia i kontrolowania fazy wdrożenia jest:",
+        "all_answers": [
+            "Umożliwia poprawne projektowanie",
+            "Zarządzanie problemami",
+            "Efektywne zarządzanie zmianą",
+            "Pozwala na kontrolę funkcjonowania i kontrolę kosztów"
+        ],
+        "correct_answers": [
+            "Pozwala na kontrolę funkcjonowania i kontrolę kosztów"
+        ]
+    },
+    {
+        "question_text": "Przygotowujesz wdrożenie usługi – sprzedaż samochodów używanych. Jakie zadania stoją przed procesem planowania i wsparcia wdrożenia?",
+        "all_answers": [
+            "Polega na zdefiniowaniu, jak można wspierać wdrożenie usługi",
+            "Polega na koordynacji posiadanych zasobów, w tym zespołów i relacji z dostawcami, a także realizacji celów i wartości fazy wdrożenia.",
+            "Polega na zaplanowaniu, jak usługa sprzedaży będzie się odbywać",
+            "Polega na koordynacji posiadanych zasobów oraz relacji z dostawcami."
+        ],
+        "correct_answers": [
+            "Polega na koordynacji posiadanych zasobów, w tym zespołów i relacji z dostawcami, a także realizacji celów i wartości fazy wdrożenia."
+        ]
+    },
+    {
+        "question_text": "Które z poniższych kryteriów miar efektywności wdrożenia są poprawne?",
+        "all_answers": [
+            "Świadomość zarządzania ryzykiem i interesariuszami",
+            "Wartość dla biznesu – efektywne wdrożenie usługi",
+            "Finansowa procesów zarządzania",
+            "Podniesienie jakości zarządzania poziomem usługi SLM"
+        ],
+        "correct_answers": [
+            "Wartość dla biznesu – efektywne wdrożenie usługi"
+        ]
+    },
+    {
+        "question_text": "W ramach przygotowania do wdrożenia nowego systemu obsługi kasowej w dużej sieci hipermarketów definiujesz cele wdrożenia. Który z poniższych celów najlepiej zobrazuje pomysł na implementację nowego systemu?",
+        "all_answers": [
+            "Celem jest wprowadzenie nowego systemu oraz ciągła poprawa i rozwijanie tego systemu",
+            "Celem jest zaprojektowanie kompleksowego rozwiązania i wdrożenie zmiany z nim związanej",
+            "Celem jest projektowanie, wdrażanie, maksymalizacja wartości dla klienta",
+            "Celem jest efektywne wprowadzenie usługi, zarządzania zmianami i wiedzą dotyczącą tej usługi oraz maksymalizacja wartości dostarczonej do klienta"
+        ],
+        "correct_answers": [
+            "Celem jest efektywne wprowadzenie usługi, zarządzania zmianami i wiedzą dotyczącą tej usługi oraz maksymalizacja wartości dostarczonej do klienta"
+        ]
+    },
+    {
+        "question_text": "W ramach dużej firmy IT, wprowadzasz nowe oprogramowanie dla klienta bankowego. Którą z poniższych polityk wykorzystasz do ewidencjonowania swojego projektu wdrożenia?",
+        "all_answers": [
+            "Polityka identyfikacji",
+            "Polityka strukturyzacji projektów",
+            "Polityka bezpieczeństwa",
+            "Role i odpowiedzialności w procesie wdrożenia"
+        ],
+        "correct_answers": [
+            "Polityka identyfikacji"
+        ]
+    },
+    {
+        "question_text": "Wartością z wprowadzenia i kontrolowania fazy wdrożenia jest:",
+        "all_answers": [
+            "Pozwala na kontrolę funkcjonowania i kontrolę kosztów",
+            "Efektywne zarządzanie zmianą",
+            "Umożliwia poprawne projektowanie",
+            "Zarządzanie problemami"
+        ],
+        "correct_answers": [
+            "Pozwala na kontrolę funkcjonowania i kontrolę kosztów",
+            "Efektywne zarządzanie zmianą",
+            "Umożliwia poprawne projektowanie"
+        ]
+    },
+    {
+        "question_text": "Które z poniższych kryteriów miar efektywności wdrożenia są poprawne?",
+        "all_answers": [
+            "Podniesienie jakości zarządzania poziomem usługi SLM",
+            "Świadomość zarządzania ryzykiem i interesariuszami",
+            "Finansowa procesów zarządzania",
+            "Wartość dla biznesu – efektywne wdrożenie usługi"
+        ],
+        "correct_answers": [
+            "Świadomość zarządzania ryzykiem i interesariuszami",
+            "Wartość dla biznesu – efektywne wdrożenie usługi"
+        ]
+    },
+    {
+        "question_text": "Wdrażasz aplikację do zakupu biletów w komunikacji miejskiej. Jakie wymagania odnośnie zarządzania jakością definiuje faza tranzycji (wdrożenia)? Które z poniższych parametrów są poprawne?",
+        "all_answers": [
+            "Jaki będzie poziom usługi i koszt wdrożenia w odniesieniu do budżetu?",
+            "Jaki będzie koszt zaprojektowania aplikacji i jakie będą potrzebne zasoby, aby utrzymać dostępność?",
+            "Jakich funkcjonalności dostarczy i ile będzie powodować incydentów?",
+            "Jak szybko aplikacja zostanie wdrożona, jak będzie działać i czy przyniesie wartość dla klienta?"
+        ],
+        "correct_answers": [
+            "Jaki będzie poziom usługi i koszt wdrożenia w odniesieniu do budżetu?",
+            "Jakich funkcjonalności dostarczy i ile będzie powodować incydentów?",
+            "Jak szybko aplikacja zostanie wdrożona, jak będzie działać i czy przyniesie wartość dla klienta?"
+        ]
+    },
+    {
+        "question_text": "Jesteś specjalistą do spraw wdrożenia w firmie XYZ. Jeden z czołowych klientów - linia lotnicza ABD - zgłasza problem z oprogramowaniem do obsługi pasażerów. Problem został rozwiązany przez zespół techniczny w nocy. W ramach procesu zarządzania problemem zdiagnozowano jednak, że konieczne jest wdrożenie nowej wersji modułu aplikacji. Jaki typ wdrożenia wykorzystasz?",
+        "all_answers": [
+            "Małe wdrożenie, jest to szybka sprawa, załatwimy to w ciągu tygodnia",
+            "Sprawa musi być przemyślana, klient jest kluczowy, więc będzie to wdrożenie duże (Major release)",
+            "Wdrożenie strategiczne jest słusznym rozwiązaniem, ponieważ klient jest kluczowy, a aplikacja jest podstawą biznesu klienta",
+            "Sprawa jest pilna i pomimo, że to duży i kluczowy klient powinno to być wdrożenie pilne"
+        ],
+        "correct_answers": [
+            "Sprawa jest pilna i pomimo, że to duży i kluczowy klient powinno to być wdrożenie pilne"
+        ]
+    },
+    {
+        "question_text": "System, w którym Urzędy Skarbowe rozliczają zeznania wymaga usprawnienia. Okazuje się, że dane, które system pobiera z centralnej bazy nie są do końca poprawne. Wszystkie numery identyfikacyjne mają dodatkową literkę, która uniemożliwia przesłanie rozliczeń do finalnego zatwierdzenia. Dziś jest 20 kwietnia, do końca rozliczeń pozostało 10 dni. Jaki to typ wdrożenia?",
+        "all_answers": [
+            "Pilne (emergency )",
+            "Małe (Minor)",
+            "Średnie (Medium)",
+            "Duże (Major)"
+        ],
+        "correct_answers": [
+            "Pilne (emergency )"
+        ]
+    },
+    {
+        "question_text": "System, w którym Urzędy Skarbowe rozliczają zeznania wymaga usprawnienia. Okazuje się, że dane, które system pobiera z centralnej bazy nie są do końca poprawne. Wszystkie numery identyfikacyjne mają dodatkową literkę, która uniemożliwia przesłanie rozliczeń do finalnego zatwierdzenia. Dziś jest 20 kwietnia, do końca rozliczeń pozostało 10 dni. Jaki to typ wdrożenia?",
+        "all_answers": [
+            "Pilne (emergency )",
+            "Małe (Minor)",
+            "Duże (Major)",
+            "Średnie (Medium)"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "W ramach dużej firmy IT, wprowadzasz nowe oprogramowanie dla klienta bankowego. Którą z poniższych polityk wykorzystasz do ewidencjonowania swojego projektu wdrożenia?",
+        "all_answers": [
+            "Role i odpowiedzialności w procesie wdrożenia",
+            "Polityka bezpieczeństwa",
+            "Polityka identyfikacji",
+            "Polityka strukturyzacji projektów"
+        ],
+        "correct_answers": [
+            "Polityka identyfikacji"
+        ]
+    },
+    {
+        "question_text": "Przygotowujesz fazę wdrożenia nowej usługi. Będzie to aplikacja zapewniająca bezpieczeństwo informacji na urządzeniach mobilnych. Do czego wykorzystasz proces planowania i wsparcia wdrożenia?",
+        "all_answers": [
+            "Całościowo wesprze fazę wdrożenia aplikacji. Pozwoli wykorzystać wiedzę i zarządzanie zmianą oraz polityki do sprawnego wprowadzenia aplikacji na rynek. Jednakże zarządzanie budżetem projektu przekaże działowi finansów",
+            "Proces ten pozwoli upewnić się, że wiedza w organizacji jest agregowana i dostępna podczas fazy wdrożenia",
+            "Całościowo wesprze fazę wdrożenia aplikacji. Pozwoli wykorzystać wiedzę i zarządzanie zmianą oraz polityki do sprawnego wprowadzenia aplikacji na rynek.",
+            "Proces ten pozwoli efektywnie zarządzać zmianami stosując polityki wymagane do tego procesu"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Które z poniższych procesów są charakterystyczne dla fazy wdrożenia?",
+        "all_answers": [
+            "Change management",
+            "SACM (Service asset & configuration management)",
+            "SLM (service level manager)",
+            "Service Desing Package"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Które z poniższych kryteriów miar efektywności wdrożenia są poprawne?",
+        "all_answers": [
+            "Wartość dla biznesu – efektywne wdrożenie usługi",
+            "Finansowa procesów zarządzania",
+            "Świadomość zarządzania ryzykiem i interesariuszami",
+            "Podniesienie jakości zarządzania poziomem usługi SLM"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Jesteś specjalistą do spraw wdrożenia w firmie XYZ. Jeden z czołowych klientów - linia lotnicza ABD - zgłasza problem z oprogramowaniem do obsługi pasażerów. Problem został rozwiązany przez zespół techniczny w nocy. W ramach procesu zarządzania problemem zdiagnozowano jednak, że konieczne jest wdrożenie nowej wersji modułu aplikacji. Jaki typ wdrożenia wykorzystasz?",
+        "all_answers": [
+            "Sprawa jest pilna i pomimo, że to duży i kluczowy klient powinno to być wdrożenie pilne",
+            "Małe wdrożenie, jest to szybka sprawa, załatwimy to w ciągu tygodnia",
+            "Sprawa musi być przemyślana, klient jest kluczowy, więc będzie to wdrożenie duże (Major release)",
+            "Wdrożenie strategiczne jest słusznym rozwiązaniem, ponieważ klient jest kluczowy, a aplikacja jest podstawą biznesu klienta"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Jesteś specjalistą do spraw wdrożenia w firmie XYZ. Jeden z czołowych klientów - linia lotnicza ABD - zgłasza problem z oprogramowaniem do obsługi pasażerów. Problem został rozwiązany przez zespół techniczny w nocy. W ramach procesu zarządzania problemem zdiagnozowano jednak, że konieczne jest wdrożenie nowej wersji modułu aplikacji. Jaki typ wdrożenia wykorzystasz?",
+        "all_answers": [
+            "Sprawa jest pilna i pomimo, że to duży i kluczowy klient powinno to być wdrożenie pilne",
+            "Małe wdrożenie, jest to szybka sprawa, załatwimy to w ciągu tygodnia",
+            "Sprawa musi być przemyślana, klient jest kluczowy, więc będzie to wdrożenie duże (Major release)",
+            "Wdrożenie strategiczne jest słusznym rozwiązaniem, ponieważ klient jest kluczowy, a aplikacja jest podstawą biznesu klienta"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Wdrażasz aplikację do zakupu biletów w komunikacji miejskiej. Jakie wymagania odnośnie zarządzania jakością definiuje faza tranzycji (wdrożenia)? Które z poniższych parametrów są poprawne?",
+        "all_answers": [
+            "Jaki będzie koszt zaprojektowania aplikacji i jakie będą potrzebne zasoby, aby utrzymać dostępność?",
+            "Jak szybko aplikacja zostanie wdrożona, jak będzie działać i czy przyniesie wartość dla klienta?",
+            "Jaki będzie poziom usługi i koszt wdrożenia w odniesieniu do budżetu?",
+            "Jakich funkcjonalności dostarczy i ile będzie powodować incydentów?"
+        ],
+        "correct_answers": [
+            "Jakich funkcjonalności dostarczy i ile będzie powodować incydentów?"
+        ]
+    },
+    {
+        "question_text": "Przygotowujesz wdrożenie usługi – sprzedaż samochodów używanych. Jakie zadania stoją przed procesem planowania i wsparcia wdrożenia?",
+        "all_answers": [
+            "Polega na zdefiniowaniu, jak można wspierać wdrożenie usługi",
+            "Polega na zaplanowaniu, jak usługa sprzedaży będzie się odbywać",
+            "Polega na koordynacji posiadanych zasobów oraz relacji z dostawcami.",
+            "Polega na koordynacji posiadanych zasobów, w tym zespołów i relacji z dostawcami, a także realizacji celów i wartości fazy wdrożenia."
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Które z poniższych procesów są charakterystyczne dla fazy wdrożenia?",
+        "all_answers": [
+            "SLM (service level manager)",
+            "Service Desing Package",
+            "SACM (Service asset & configuration management)",
+            "Change management"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "W ramach przygotowania do wdrożenia nowego systemu obsługi kasowej w dużej sieci hipermarketów definiujesz cele wdrożenia. Który z poniższych celów najlepiej zobrazuje pomysł na implementację nowego systemu?",
+        "all_answers": [
+            "Celem jest zaprojektowanie kompleksowego rozwiązania i wdrożenie zmiany z nim związanej",
+            "Celem jest projektowanie, wdrażanie, maksymalizacja wartości dla klienta",
+            "Celem jest wprowadzenie nowego systemu oraz ciągła poprawa i rozwijanie tego systemu",
+            "Celem jest efektywne wprowadzenie usługi, zarządzania zmianami i wiedzą dotyczącą tej usługi oraz maksymalizacja wartości dostarczonej do klienta"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Wartością z wprowadzenia i kontrolowania fazy wdrożenia jest:",
+        "all_answers": [
+            "Zarządzanie problemami",
+            "Efektywne zarządzanie zmianą",
+            "Umożliwia poprawne projektowanie",
+            "Pozwala na kontrolę funkcjonowania i kontrolę kosztów"
+        ],
+        "correct_answers": [
+            "Pozwala na kontrolę funkcjonowania i kontrolę kosztów"
+        ]
+    },
+    {
+        "question_text": "Firma AbiFG wprowadza dla klienta XJ Motors aplikację zarządzającą linią produkcyjną. Aplikacja ma za zadanie nadzór nad linią, kontrolę pracy maszyn i urządzeń, kalibrację czasu pracy maszyn z pracą manualną wykonywaną przez pracowników liniowych. Jest to zupełnie nowa aplikacja, która zastępuje poprzednią. Jako Release Testing and Validation manager odpowiadasz za przebieg całego procesu. Bazując na powyższym scenariuszu określ, jakie korzyści klientowi przyniesie wprowadzenie aplikacji. Jaką unikalną wartość wniesie to rozwiązanie? Po co klient ma korzystać właśnie z tego rozwiązania? Wybierz najlepszą odpowiedź:",
+        "all_answers": [
+            "Zaprezentuje klientowi pełny plan wdrożenia z kluczowymi elementami tego procesu. Całościowa odpowiedzialność za wdrożenie spada na dostawcę usługi. Kontrola nad wdrożeniem oraz przekazanie wiedzy o aplikacji zarówno klientowi, jak i fazie operacji.",
+            "Zaprezentuje klientowi plan wdrożenia. Kontrola nad wdrożeniem oraz przekazanie klientowi wiedzy o aplikacji leży po stronie dostawcy. Jednak od momentu ELS odpowiedzialność zostanie przekazana klientowi, a usługodawca będzie dostarczał wsparcie operacyjne.",
+            "Zaprezentuje klientowi plan wdrożenia i kluczowe elementy tego planu. Kontrola nad wdrożeniem oraz przekazanie klientowi wiedzy o aplikacji leży po stronie dostawcy. Jednak od momentu ELS odpowiedzialność zostanie przekazana klientowi, a usługodawca będzie dostarczał wsparcie operacyjne.",
+            "Zaprezentuje klientowi pełny plan wdrożenia z kluczowymi elementami tego procesu. Całościowa odpowiedzialność za wdrożenie spada na dostawcę usługi. Kontrola nad wdrożeniem oraz przekazanie wiedzy o aplikacji klientowi. Błędnym założeniem jest przekazywanie wiedzy fazie operacji, ponieważ wszystkie wymagane informacje znajdą się w systemie zarządzania aplikacją, a sam proces operacyjny będzie po stronie klienta."
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Firma AbiFG wprowadza dla klienta XJ Motors aplikację zarządzającą linią produkcyjną. Aplikacja ma za zadanie nadzór nad linią, kontrolę pracy maszyn i urządzeń, kalibrację czasu pracy maszyn z pracą manualną wykonywaną przez pracowników liniowych. Jest to zupełnie nowa aplikacja, która zastępuje poprzednią. Jako Release Testing and Validation manager odpowiadasz za przebieg całego procesu. Konieczne jest też walidowanie sukcesu wdrożenia. Widząc, jak przebiega projekt określ, jakie aktywności będą elementem procesu walidacji i testów wdrożenia aplikacji:",
+        "all_answers": [
+            "Umieszczenie informacji z testów i wniosków w repozytorium zarządzania wiedzą.",
+            "Testy i walidacja są zaprojektowane dla aplikacji i wdrażane pod kontrolą procesu testów i walidacji.",
+            "Przeprowadzenie testów",
+            "Zarządzanie procesem walidacji i testów w kontakcie z klientem i zespołami."
+        ],
+        "correct_answers": [
+            "Zarządzanie procesem walidacji i testów w kontakcie z klientem i zespołami."
+        ]
+    },
+    {
+        "question_text": "Zestaw kluczowych aktywności zarządzania konfiguracją, to:",
+        "all_answers": [
+            "Planowanie, identyfikacja, kontrola, stan obecny, audyt.",
+            "Baselining, identyfikacja, kontrola, stan obecny, audyt.",
+            "Planowanie, diagnozowanie stanu, kontrola, stan obecny, audyt.",
+            "Planowanie, identyfikacja, stan obecny, audyt."
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "CMS to baza która:",
+        "all_answers": [
+            "Zawiera wszystkie informacje o danej usłudze",
+            "Jest elementem CMBD",
+            "Zawiera wszystkie kluczowe elementy systemu konfiguracji",
+            "Zawiera informacje o aplikacjach dostarczanych w ramach usługi"
+        ],
+        "correct_answers": [
+            "Zawiera wszystkie kluczowe elementy systemu konfiguracji"
+        ]
+    },
+    {
+        "question_text": "Zarządzanie konfiguracją jako główny cel stawia sobie:",
+        "all_answers": [
+            "Zbudowanie bazy, składającej się z wszystkich zasobów serwisu i przesyłanie ich na życzenie klienta.",
+            "Katalogowanie, strukturyzowanie i udostępnianie danych dotyczących konfiguracji usługi.",
+            "Ewidencjonowanie sprzętu posiadanego przez organizację w celu kontroli jego stanu.",
+            "Zbieranie informacji o wszystkich elementach konfiguracji i udostępnianie ich wszystkim zainteresowanym w formie ustalonej przez odbiorców."
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Firma AbiFG wprowadza dla klienta XJ Motors aplikację zarządzającą linią produkcyjną. Aplikacja ma za zadanie nadzór nad linią, kontrolę pracy maszyn i urządzeń, kalibrację czasu pracy maszyn z pracą manualną wykonywaną przez pracowników liniowych. Jest to zupełnie nowa aplikacja, która zastępuje poprzednią. Jako Release Testing and Validation manager odpowiadasz za przebieg całego procesu. Które elementy dostarczania wartości będą odpowiadać wymaganiom powyższej sytuacji?",
+        "all_answers": [
+            "Szybsze i efektywniejsze wdrażanie zmian w aplikacji i usługach.",
+            "Klient otrzyma aplikację i urządzenia wspierające aplikację.",
+            "Klient otrzyma wiedzę potrzebną do obsługi i użytkowania aplikacji.",
+            "Stanowi wsparcie dla audytu wdrożeniowego."
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Firma AbiFG wprowadza dla klienta XJ Motors aplikację zarządzającą linią produkcyjną. Aplikacja ma za zadanie nadzór nad linią, kontrolę pracy maszyn i urządzeń, kalibrację czasu pracy maszyn z pracą manualną wykonywaną przez pracowników liniowych. Jest to zupełnie nowa aplikacja, która zastępuje poprzednią. Jako Release Testing and Validation manager odpowiadasz za przebieg całego procesu. Po podjętych działaniach, jaka będzie kolejność aktywności w procesie wdrożenia:",
+        "all_answers": [
+            "Zaplanowanie wdrożenia aplikacji, budowanie i testowanie, zamknięcie i przegląd, ewaluacja wdrożenia.",
+            "Zaplanowanie wdrożenia aplikacji, budowanie i testowanie, ELS.",
+            "Zaplanowanie wdrożenia aplikacji, budowanie i testowanie, zamknięcie i przegląd.",
+            "Zaplanowanie wdrożenia aplikacji, budowanie i testowanie."
+        ],
+        "correct_answers": [
+            "Zaplanowanie wdrożenia aplikacji, budowanie i testowanie, zamknięcie i przegląd."
+        ]
+    },
+    {
+        "question_text": "Firma AbiFG wprowadza dla klienta XJ Motors aplikację zarządzającą linią produkcyjną. Aplikacja ma za zadanie nadzór nad linią, kontrolę pracy maszyn i urządzeń, kalibrację czasu pracy maszyn z pracą manualną wykonywaną przez pracowników liniowych. Jest to zupełnie nowa aplikacja, która zastępuje poprzednią. Jako Release Testing and Validation manager odpowiadasz za przebieg całego procesu. Konieczne jest też walidowanie sukcesu wdrożenia. Widząc, jak przebiega projekt określ, jakie aktywności będą elementem procesu walidacji i testów wdrożenia aplikacji:",
+        "all_answers": [
+            "Umieszczenie informacji z testów i wniosków w repozytorium zarządzania wiedzą.",
+            "Przeprowadzenie testów",
+            "Testy i walidacja są zaprojektowane dla aplikacji i wdrażane pod kontrolą procesu testów i walidacji.",
+            "Zarządzanie procesem walidacji i testów w kontakcie z klientem i zespołami."
+        ],
+        "correct_answers": [
+            "Przeprowadzenie testów",
+            "Testy i walidacja są zaprojektowane dla aplikacji i wdrażane pod kontrolą procesu testów i walidacji.",
+            "Zarządzanie procesem walidacji i testów w kontakcie z klientem i zespołami."
+        ]
+    },
+    {
+        "question_text": "Zarządzanie konfiguracją jako główny cel stawia sobie:",
+        "all_answers": [
+            "Katalogowanie, strukturyzowanie i udostępnianie danych dotyczących konfiguracji usługi.",
+            "Zbieranie informacji o wszystkich elementach konfiguracji i udostępnianie ich wszystkim zainteresowanym w formie ustalonej przez odbiorców.",
+            "Ewidencjonowanie sprzętu posiadanego przez organizację w celu kontroli jego stanu.",
+            "Zbudowanie bazy, składającej się z wszystkich zasobów serwisu i przesyłanie ich na życzenie klienta."
+        ],
+        "correct_answers": [
+            "Katalogowanie, strukturyzowanie i udostępnianie danych dotyczących konfiguracji usługi."
+        ]
+    },
+    {
+        "question_text": "Zestaw kluczowych aktywności zarządzania konfiguracją, to:",
+        "all_answers": [
+            "Planowanie, identyfikacja, kontrola, stan obecny, audyt.",
+            "Planowanie, diagnozowanie stanu, kontrola, stan obecny, audyt.",
+            "Planowanie, identyfikacja, stan obecny, audyt.",
+            "Baselining, identyfikacja, kontrola, stan obecny, audyt."
+        ],
+        "correct_answers": [
+            "Planowanie, identyfikacja, kontrola, stan obecny, audyt."
+        ]
+    },
+    {
+        "question_text": "Przygotowując proces SACM (Service Asset & Configuration Management) postawiono przed Tobą zadanie określenia głównych zadań w kontekście wdrożenia nowej usługi (systemu zakupów biletów komunikacji miejskiej przez internet). Które z poniższych zadań pasuje do SACM?",
+        "all_answers": [
+            "Zarządzanie cyklem życia każdego z CI",
+            "Definicja i katalogowanie zasobów potrzebnych do dostarczenia systemu",
+            "Potwierdza i autoryzuje wdrożenia lub wycofania poszczególnych zasobów",
+            "Upewnienie się, że zarządzanie zdarzeniem korzysta z bazy CMDB"
+        ],
+        "correct_answers": [
+            "Zarządzanie cyklem życia każdego z CI",
+            "Definicja i katalogowanie zasobów potrzebnych do dostarczenia systemu",
+            "Potwierdza i autoryzuje wdrożenia lub wycofania poszczególnych zasobów"
+        ]
+    },
+    {
+        "question_text": "Faza wczesnego wsparcia usługi ma na celu?",
+        "all_answers": [
+            "Realne wsparcie usług, której głównym celem jest wyszukiwanie potencjalnych obszarów do poprawy",
+            "Zbudowanie obrazu, jak usługa powinna wyglądać",
+            "Realne wsparcie dla usługi mające na celu potwierdzenie zgodności wprowadzonych elementów z oczekiwaniami klienta i możliwościami dostawcy",
+            "Przetestowanie czy usługa działa poprawnie"
+        ],
+        "correct_answers": [
+            "Realne wsparcie dla usługi mające na celu potwierdzenie zgodności wprowadzonych elementów z oczekiwaniami klienta i możliwościami dostawcy"
+        ]
+    },
+    {
+        "question_text": "Jak nazywamy spis urządzeń, które zostały zidentyfikowane i zatwierdzone jako elementy usługi?",
+        "all_answers": [
+            "Baseline",
+            "Wynik audytu",
+            "Baza rekordów",
+            "Snapshot"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Faza wczesnego wsparcia usługi ma na celu?",
+        "all_answers": [
+            "Realne wsparcie dla usługi mające na celu potwierdzenie zgodności wprowadzonych elementów z oczekiwaniami klienta i możliwościami dostawcy",
+            "Zbudowanie obrazu, jak usługa powinna wyglądać",
+            "Przetestowanie czy usługa działa poprawnie",
+            "Realne wsparcie usług, której głównym celem jest wyszukiwanie potencjalnych obszarów do poprawy"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Przygotowując proces SACM (Service Asset & Configuration Management) postawiono przed Tobą zadanie określenia głównych zadań w kontekście wdrożenia nowej usługi (systemu zakupów biletów komunikacji miejskiej przez internet). Które z poniższych zadań pasuje do SACM?",
+        "all_answers": [
+            "Zarządzanie cyklem życia każdego z CI",
+            "Potwierdza i autoryzuje wdrożenia lub wycofania poszczególnych zasobów",
+            "Definicja i katalogowanie zasobów potrzebnych do dostarczenia systemu",
+            "Upewnienie się, że zarządzanie zdarzeniem korzysta z bazy CMDB"
+        ],
+        "correct_answers": [
+            "Definicja i katalogowanie zasobów potrzebnych do dostarczenia systemu"
+        ]
+    },
+    {
+        "question_text": "Firma AbiFG wprowadza dla klienta XJ Motors aplikację zarządzającą linią produkcyjną. Aplikacja ma za zadanie nadzór nad linią, kontrolę pracy maszyn i urządzeń, kalibrację czasu pracy maszyn z pracą manualną wykonywaną przez pracowników liniowych. Jest to zupełnie nowa aplikacja, która zastępuje poprzednią. Jako Release Testing and Validation manager odpowiadasz za przebieg całego procesu. Po podjętych działaniach, jaka będzie kolejność aktywności w procesie wdrożenia:",
+        "all_answers": [
+            "Zaplanowanie wdrożenia aplikacji, budowanie i testowanie, ELS.",
+            "Zaplanowanie wdrożenia aplikacji, budowanie i testowanie.",
+            "Zaplanowanie wdrożenia aplikacji, budowanie i testowanie, zamknięcie i przegląd.",
+            "Zaplanowanie wdrożenia aplikacji, budowanie i testowanie, zamknięcie i przegląd, ewaluacja wdrożenia."
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Podczas konferencji z klientem jako reprezentant SACM wyjaśniasz wartość wynikającą ze stosowania SACM. Klient prosi o doprecyzowanie elementów procesu. Które z poniższych odpowiedzi będą Twoimi argumentami w tej dyskusji?",
+        "all_answers": [
+            "Odpowiedni poziom usługi (ryzyko biznesowe).",
+            "Efektem korzystania z dobrego SACM jest optymalizacja kosztów zarządzania zasobami.",
+            "Zarządzanie relacją z klientem.",
+            "Pozwala efektywnie zarządzać wiedzą o elementach usługi."
+        ],
+        "correct_answers": [
+            "Odpowiedni poziom usługi (ryzyko biznesowe)."
+        ]
+    },
+    {
+        "question_text": "Czym jest baselining w systemie zarządzania konfiguracją?",
+        "all_answers": [
+            "Jest chwilowym obrazem konfiguracji w czasie.",
+            "Punktem stycznym pomiędzy infrastrukturą klienta a infrastrukturą dostawcy usługi.",
+            "Punktem startowym do analizy konfiguracji usługi, który jest zatwierdzony i przekazuje stan faktyczny.",
+            "Punktem startowym, ale nie wymaga zatwierdzenia."
+        ],
+        "correct_answers": [
+            "Punktem startowym do analizy konfiguracji usługi, który jest zatwierdzony i przekazuje stan faktyczny."
+        ]
+    },
+    {
+        "question_text": "Jeśli zmiana w usłudze została wprowadzona w sposób niekontrolowany, zarządzający zmianą powinien:",
+        "all_answers": [
+            "Zwołać ECAB",
+            "Uruchomić proces PIR (post implementation review)",
+            "Zebrać informacje i wyjaśnienia oraz upewnić się, że sytuacja nie powtórzy się w przyszłości",
+            "Zwołać CAB"
+        ],
+        "correct_answers": [
+            "Zebrać informacje i wyjaśnienia oraz upewnić się, że sytuacja nie powtórzy się w przyszłości"
+        ]
+    },
+    {
+        "question_text": "Jesteś zarządzającym zmianą w firmie X. Podczas spotkania CAB prowadzona jest żywa dyskusja nad priorytetem zmiany. Który z owoców tej dyskusji jest najbardziej poprawny?",
+        "all_answers": [
+            "Powinny być rozpatrywane dwa kryteria: wpływ na usługę oraz szybkość z jaką możemy wprowadzić zmianę.",
+            "Powinny być rozpatrywane dwa kryteria: wpływ na usługę oraz prawdopodobieństwo powodzenia - potencjalne korzyści.",
+            "Powinny być rozpatrywane dwa kryteria: wpływ na usługę i prawdopodobieństwo niepowodzenia (ryzyko biznesowe).",
+            "Powinny być rozpatrywane dwa kryteria: wpływ na usługę i jej dostępność dla klienta."
+        ],
+        "correct_answers": [
+            "Powinny być rozpatrywane dwa kryteria: wpływ na usługę i prawdopodobieństwo niepowodzenia (ryzyko biznesowe)."
+        ]
+    },
+    {
+        "question_text": "Proces zarządzania zmianą koncentruje się na:",
+        "all_answers": [
+            "infrastrukturze technicznej, bo jest najważniejsza dla dostarczenia usługi – ponieważ to błąd człowieka powoduje błędy.",
+            "infrastrukturze technicznej, procesach i wdrażaniu.",
+            "wszystkich obszarach usługi przez cały cykl jej życia.",
+            "wszystkich obszarach usługi poza zarządzaniem portfelem usług – ponieważ całe zarządzanie konfiguracją jest obszarem i kluczowym elementem usługi."
+        ],
+        "correct_answers": [
+            "wszystkich obszarach usługi przez cały cykl jej życia."
+        ]
+    },
+    {
+        "question_text": "Jesteś kierownikiem zmiany. Jeden z kierowników średniego szczebla przekonuje Cię, że ewidencjonowanie zmian i kontrola ich przebiegu wpływa niekorzystnie na usługę. Należy uprościć ten proces i zrezygnować z ewidencji na rzecz działania reaktywnego. Jaka jest Twoja odpowiedź?",
+        "all_answers": [
+            "Zupełnie się nie zgadzasz. Uważasz, że zmianę należy ewidencjonować. Nie trzeba zwracać uwagi na szczegóły związane z planem wycofania zmiany czy szczegółami. W końcu techniczni pracownicy wiedzą co robią. Należy jednak mieć zapisany rekord w systemie.",
+            "Zgadasz się, że wprowadzenie zmiany w sposób zorganizowany trwa dłużej. Przedstawiasz jednak argumenty wskazujące jasno, że kontrola zmian i ich ewidencja pozwala na kontrolowanie środowiska i przynosi korzyści biznesowe klientowi. Wprowadzanie zmian bez autoryzacji doprowadzi do chaosu, a w efekcie do degradacji jakości usługi.",
+            "Zgadzasz się, że zmiana może opóźniać wprowadzenie projektu, ale robienie zmian w pośpiechu prowadzi do awarii, która może wpłynąć na klienta i wartość usługi.",
+            "Zgadzasz się, że zmiana wprowadzana w pełni zorganizowany sposób przesuwa w czasie proces jej wdrożenia, ale nie opóźnia go. Uważasz, że bez ewidencji i kontroli, pojawią się zagrożenia negatywnego wpływu na biznes."
+        ],
+        "correct_answers": [
+            "Zgadasz się, że wprowadzenie zmiany w sposób zorganizowany trwa dłużej. Przedstawiasz jednak argumenty wskazujące jasno, że kontrola zmian i ich ewidencja pozwala na kontrolowanie środowiska i przynosi korzyści biznesowe klientowi. Wprowadzanie zmian bez autoryzacji doprowadzi do chaosu, a w efekcie do degradacji jakości usługi."
+        ]
+    },
+    {
+        "question_text": "Jesteś zarządzającym zmianą w firmie X. Podczas spotkania rozważacie, czy zmiana wprowadzona w systemie finansowo-księgowym przyniosła oczekiwany efekt. Jak nazywa się procedura, którą podejmujecie i co jest w niej najistotniejsze?",
+        "all_answers": [
+            "PIA – to analiza pozwalająca na wyciągnięcie wniosków ze zmiany i zastosowanie ich w przyszłości.",
+            "PIR - jej najważniejszym zadaniem jest upewnienie się, że zmiana została wprowadzona z sukcesem i wyciągnięcie wniosków płynących z wdrożenia.",
+            "PIA - jej najważniejszym zadaniem jest upewnienie się, że zmiana została wprowadzona z sukcesem i wyciągnięcie wniosków płynących z wdrożenia.",
+            "PIR - jej najważniejszym zadaniem jest upewnienie się, że zmiana została wprowadzona z sukcesem."
+        ],
+        "correct_answers": [
+            "PIR - jej najważniejszym zadaniem jest upewnienie się, że zmiana została wprowadzona z sukcesem i wyciągnięcie wniosków płynących z wdrożenia."
+        ]
+    },
+    {
+        "question_text": "Zmiana wprowadzona za zgodą CAB, z pełnym przeglądem planów wycofania zmiany oraz analizą ryzyk, która będzie opatrzona odpowiednim czasem przygotowania, to:",
+        "all_answers": [
+            "Zmiana szybka",
+            "Zmiana normalna",
+            "Zmiana standardowa",
+            "Zmiana pilna"
+        ],
+        "correct_answers": [
+            "Zmiana normalna"
+        ]
+    },
+    {
+        "question_text": "SKMS to:",
+        "all_answers": [
+            "SKMS jest elementem CMBD",
+            "SKMS jest elementem CMS",
+            "System odpowiedzialny za całościowe ujęcie wiedzy w usłudze z wyłączeniem DML",
+            "System odpowiedzialny za całościowe ujęcie wiedzy w usłudze"
+        ],
+        "correct_answers": [
+            "System odpowiedzialny za całościowe ujęcie wiedzy w usłudze"
+        ]
+    },
+    {
+        "question_text": "Jesteś odpowiedzialny za zarządzanie wiedzą dla usługi. Jakie jest główne zadanie procesu, którym zarządzasz?",
+        "all_answers": [
+            "Głównym zadaniem procesu jest dzielenie się wiedzą i dostępnymi informacjami. Podnoszenie jakości procesów przez informacje definiujące konfiguracje danej usługi. Redukcja kosztów przez zmniejszenie nakładów na dział R&D. Kontrola nad systemem zarządzania wiedzą, przeprowadzanie analiz, przetrzymywanie i wykorzystywanie wiedzy przez organizację.",
+            "Głównym zadaniem procesu jest dzielenie się wiedzą i dostępnymi informacjami. Redukcja kosztów wynikających z odkrywania znanych rzeczy. Kontrola nad systemem zarządzania wiedzą, przeprowadzanie analiz, przetrzymywanie i wykorzystywanie wiedzy przez organizację.",
+            "Głównym zadaniem procesu jest dzielenie się wiedzą i dostępnymi informacjami w odpowiednim miejscu i czasie. Podnoszenie jakości procesów przez pełną informację. Redukcja kosztów wynikających z odkrywania znanych rzeczy. Kontrola nad systemem zarządzania wiedzą, przeprowadzanie analiz, przetrzymywanie i wykorzystywanie wiedzy przez organizację.",
+            "Głównym zadaniem procesu jest dzielenie się wiedzą i dostępnymi informacjami. Podnoszenie jakości procesów przez informacje definiujące konfiguracje danej usługi. Redukcja kosztów wynikających z odkrywania znanych rzeczy. Kontrola nad systemem zarządzania wiedzą, przeprowadzanie analiz, przetrzymywanie i wykorzystywanie wiedzy przez organizację."
+        ],
+        "correct_answers": [
+            "Głównym zadaniem procesu jest dzielenie się wiedzą i dostępnymi informacjami w odpowiednim miejscu i czasie. Podnoszenie jakości procesów przez pełną informację. Redukcja kosztów wynikających z odkrywania znanych rzeczy. Kontrola nad systemem zarządzania wiedzą, przeprowadzanie analiz, przetrzymywanie i wykorzystywanie wiedzy przez organizację."
+        ]
+    },
+    {
+        "question_text": "Identyfikowanie i zbieranie informacji, to:",
+        "all_answers": [
+            "Stanowi element zarządzania informacjami",
+            "Kluczowy element przekazywania informacji",
+            "Stanowi wkład dla modelu DIKW",
+            "Specjalny element strategii zarządzania wiedzą"
+        ],
+        "correct_answers": [
+            "Specjalny element strategii zarządzania wiedzą"
+        ]
+    },
+    {
+        "question_text": "W procesie zarządzania wiedzą podstawowym modelem przepływu jest model DIKW. Proszę o rozszyfrowanie, co ten model oznacza:",
+        "all_answers": [
+            "Model definiuje: Data, Information, Knowledge i Wisdom. Pokazuje, jak przepływa strumień od samych danych, przez ich opracowanie, aż do poziomu mądrości organizacji.",
+            "Model definiuje: Data, Information, Knowledge i Wise. Pokazuje, jak przepływa strumień od samych danych, przez ich opracowanie, aż do poziomu mądrości organizacji.",
+            "Model definiuje: Data (dane), Investigation (śledzenie/przerabianie), Knowledge (wiedzę) i Wisdom (mądrość). Pokazuje, jak przepływa strumień od samych danych, przez ich śledzenie, aż do poziomu mądrości organizacji.",
+            "Model definiuje: Database, Information, Knowledge i Wisdom. Pokazuje, jak przepływa strumień od bazy danych, przez opracowanie danych, aż do poziomu mądrości organizacji."
+        ],
+        "correct_answers": [
+            "Model definiuje: Data, Information, Knowledge i Wisdom. Pokazuje, jak przepływa strumień od samych danych, przez ich opracowanie, aż do poziomu mądrości organizacji."
+        ]
+    },
+    {
+        "question_text": "Wybierz, jakie korzyści klientowi powinien dawać system zarządzania wiedzą:",
+        "all_answers": [
+            "Język biznesu zrozumiały dla IT.",
+            "Umożliwiać dostęp do wiedzy, która jest aktualizowana.",
+            "Dawać dostęp do wszystkich informacji w każdym czasie.",
+            "System powinien być w największej mierze wsparciem fazy strategii."
+        ],
+        "correct_answers": [
+            "Język biznesu zrozumiały dla IT.",
+            "Umożliwiać dostęp do wiedzy, która jest aktualizowana."
+        ]
+    },
+    {
+        "question_text": "Model DIKW odpowiada na pytanie:",
+        "all_answers": [
+            "Jaka jest relacja między danymi, informacjami, wiedzą i mądrością?",
+            "Jaka jest relacja między zarządzaniem wiedzą a przepływem informacji?",
+            "Jak wiedza przepływa w organizacji?",
+            "Jak strukturyzować wiedzę?"
+        ],
+        "correct_answers": [
+            "Jaka jest relacja między danymi, informacjami, wiedzą i mądrością?"
+        ]
+    },
+    {
+        "question_text": "Wynikiem ewaluacji podczas wprowadzenia nowego systemu kasowego w jednej z sieci hipermarketów było wstrzymanie zmiany, która miała wprowadzić te aplikacje w województwie dolnośląskim. Jaka polityka ewaluacji zdecydowała o takiej decyzji?",
+        "all_answers": [
+            "Polityka mówiąca o tym, że każda zmiana musi przejść przez proces ewaluacji. Gdyby udało się uniknąć tej polityki, pewnie zmiana zostałaby wprowadzona",
+            "Polityka zarządzania jakością, która poinformowała, że wdrożenie systemu grozi degradacją usługi",
+            "Ewaluacja powinna być zaangażowana od początku procesu projektowania zmiany",
+            "Wszystkie zdiagnozowane niezgodności wywołają kolejne akcje"
+        ],
+        "correct_answers": [
+            "Wszystkie zdiagnozowane niezgodności wywołają kolejne akcje"
+        ]
+    },
+    {
+        "question_text": "Która z odpowiedzi opisuje cele procesu ewaluacji?",
+        "all_answers": [
+            "Ocena skuteczności podejmowanych zmian",
+            "Ustandaryzowane podejście do zmian w usłudze",
+            "Ryzyka i problemy są diagnozowane i można ich uniknąć w przyszłości",
+            "Definicja oczekiwań interesariuszy i ich zrozumienie"
+        ],
+        "correct_answers": [
+            "Ocena skuteczności podejmowanych zmian",
+            "Ustandaryzowane podejście do zmian w usłudze",
+            "Ryzyka i problemy są diagnozowane i można ich uniknąć w przyszłości"
+        ]
+    },
+    {
+        "question_text": "Ewaluacja zmiany dotyczącej wprowadzenia nowego systemu kasowego w jednej z sieci hipermarketów została przeprowadzona następującymi krokami:",
+        "all_answers": [
+            "Proces porównania wartości dla biznesu z potencjalnymi ryzykami doprowadził kierownika zmiany do podjęcia takiej decyzji",
+            "Przegląd zmiany, przegląd ryzyk i planów wycofania zmiany, decyzja odnośnie dalszych kroków",
+            "Dokonano planowania ewaluacji, wykonano ewaluacje i podjęto decyzję co do dalszych kroków",
+            "Zaplanowanie ewaluacji, wykonanie ewaluacji, weryfikacja jej poprawności i podjęcie decyzji"
+        ],
+        "correct_answers": [
+            "Zaplanowanie ewaluacji, wykonanie ewaluacji, weryfikacja jej poprawności i podjęcie decyzji"
+        ]
+    },
+    {
+        "question_text": "Mapowanie interesariuszy obejmuje:",
+        "all_answers": [
+            "Określenie pozycji interesariuszy.",
+            "Matrycę wpływu interesariuszy",
+            "Diagnozę interesariuszy"
+        ],
+        "correct_answers": [
+            "Określenie pozycji interesariuszy.",
+            "Matrycę wpływu interesariuszy",
+            "Diagnozę interesariuszy"
+        ]
+    },
+    {
+        "question_text": "Dokonując mapowania interesariuszy przy wdrożeniu nowej usługi fryzjerskiej powinieneś wziąć pod uwagę:",
+        "all_answers": [
+            "Poprawne zdiagnozowanie interesariuszy – klienci, dostawcy sprzętu, wynajmujący lokal, społeczność lokalna.",
+            "Określenie, gdzie chciałbyś ich widzieć w swojej mapie i jak sprawić, aby się tam znaleźli.",
+            "Pozycjonowanie interesariuszy przez przypisanie im obszarów, w których są decyzyjni.",
+            "Określenie, który z interesariuszy jest najsilniejszy i na nim się skupić."
+        ],
+        "correct_answers": [
+            "Poprawne zdiagnozowanie interesariuszy – klienci, dostawcy sprzętu, wynajmujący lokal, społeczność lokalna.",
+            "Określenie, gdzie chciałbyś ich widzieć w swojej mapie i jak sprawić, aby się tam znaleźli.",
+            "Pozycjonowanie interesariuszy przez przypisanie im obszarów, w których są decyzyjni."
+        ]
+    },
+    {
+        "question_text": "Dzięki procesowi ewaluacji uzyskujemy następujące korzyści:",
+        "all_answers": [
+            "Porównanie oczekiwań do efektu końcowego",
+            "Wskazanie prawidłowego wykorzystania zasobów",
+            "Wskaże, jakie błędy zostały popełnione przy wdrożeniu",
+            "Sugestie w zakresie zarządzania procesem"
+        ],
+        "correct_answers": [
+            "Porównanie oczekiwań do efektu końcowego",
+            "Wskazanie prawidłowego wykorzystania zasobów"
+        ]
+    },
+    {
+        "question_text": "Która z odpowiedzi opisuje cele procesu ewaluacji?",
+        "all_answers": [
+            "Ustandaryzowane podejście do zmian w usłudze",
+            "Definicja oczekiwań interesariuszy i ich zrozumienie",
+            "Ryzyka i problemy są diagnozowane i można ich uniknąć w przyszłości",
+            "Ocena skuteczności podejmowanych zmian"
+        ],
+        "correct_answers": [
+            "Ryzyka i problemy są diagnozowane i można ich uniknąć w przyszłości",
+            "Ocena skuteczności podejmowanych zmian"
+        ]
+    },
+    {
+        "question_text": "Dokonując mapowania interesariuszy przy wdrożeniu nowej usługi fryzjerskiej powinieneś wziąć pod uwagę:",
+        "all_answers": [
+            "Określenie, gdzie chciałbyś ich widzieć w swojej mapie i jak sprawić, aby się tam znaleźli.",
+            "Poprawne zdiagnozowanie interesariuszy – klienci, dostawcy sprzętu, wynajmujący lokal, społeczność lokalna.",
+            "Określenie, który z interesariuszy jest najsilniejszy i na nim się skupić.",
+            "Pozycjonowanie interesariuszy przez przypisanie im obszarów, w których są decyzyjni."
+        ],
+        "correct_answers": [
+            "Określenie, gdzie chciałbyś ich widzieć w swojej mapie i jak sprawić, aby się tam znaleźli.",
+            "Poprawne zdiagnozowanie interesariuszy – klienci, dostawcy sprzętu, wynajmujący lokal, społeczność lokalna.",
+            "Pozycjonowanie interesariuszy przez przypisanie im obszarów, w których są decyzyjni."
+        ]
+    },
+    {
+        "question_text": "Wynikiem ewaluacji podczas wprowadzenia nowego systemu kasowego w jednej z sieci hipermarketów było wstrzymanie zmiany, która miała wprowadzić te aplikacje w województwie dolnośląskim. Jaka polityka ewaluacji zdecydowała o takiej decyzji?",
+        "all_answers": [
+            "Ewaluacja powinna być zaangażowana od początku procesu projektowania zmiany",
+            "Polityka zarządzania jakością, która poinformowała, że wdrożenie systemu grozi degradacją usługi",
+            "Polityka mówiąca o tym, że każda zmiana musi przejść przez proces ewaluacji. Gdyby udało się uniknąć tej polityki, pewnie zmiana zostałaby wprowadzona",
+            "Wszystkie zdiagnozowane niezgodności wywołają kolejne akcje"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Które z poniższych elementów są istotne z punktu widzenia ścieżki komunikacji",
+        "all_answers": [
+            "Diagnoza potencjału liderskiego",
+            "Strategia, misja i wizja",
+            "Informacja zwrotna",
+            "Baseline i analiza niezgodności"
+        ],
+        "correct_answers": [
+            "Diagnoza potencjału liderskiego",
+            "Strategia, misja i wizja",
+            "Informacja zwrotna",
+            "Baseline i analiza niezgodności"
+        ]
+    },
+    {
+        "question_text": "Dzięki procesowi ewaluacji uzyskujemy następujące korzyści:",
+        "all_answers": [
+            "Wskazanie prawidłowego wykorzystania zasobów",
+            "Wskaże, jakie błędy zostały popełnione przy wdrożeniu",
+            "Sugestie w zakresie zarządzania procesem",
+            "Porównanie oczekiwań do efektu końcowego"
+        ],
+        "correct_answers": [
+            "Wskazanie prawidłowego wykorzystania zasobów",
+            "Porównanie oczekiwań do efektu końcowego"
+        ]
+    },
+    {
+        "question_text": "Ewaluacja zmiany dotyczącej wprowadzenia nowego systemu kasowego w jednej z sieci hipermarketów została przeprowadzona następującymi krokami:",
+        "all_answers": [
+            "Proces porównania wartości dla biznesu z potencjalnymi ryzykami doprowadził kierownika zmiany do podjęcia takiej decyzji",
+            "Zaplanowanie ewaluacji, wykonanie ewaluacji, weryfikacja jej poprawności i podjęcie decyzji",
+            "Dokonano planowania ewaluacji, wykonano ewaluacje i podjęto decyzję co do dalszych kroków",
+            "Przegląd zmiany, przegląd ryzyk i planów wycofania zmiany, decyzja odnośnie dalszych kroków"
+        ],
+        "correct_answers": [
+            "Zaplanowanie ewaluacji, wykonanie ewaluacji, weryfikacja jej poprawności i podjęcie decyzji"
+        ]
+    },
+    {
+        "question_text": "Dzięki procesowi ewaluacji uzyskujemy następujące korzyści:",
+        "all_answers": [
+            "Wskaże, jakie błędy zostały popełnione przy wdrożeniu",
+            "Wskazanie prawidłowego wykorzystania zasobów",
+            "Sugestie w zakresie zarządzania procesem",
+            "Porównanie oczekiwań do efektu końcowego"
+        ],
+        "correct_answers": [
+            "Wskazanie prawidłowego wykorzystania zasobów",
+            "Porównanie oczekiwań do efektu końcowego"
+        ]
+    },
+    {
+        "question_text": "Wynikiem ewaluacji podczas wprowadzenia nowego systemu kasowego w jednej z sieci hipermarketów było wstrzymanie zmiany, która miała wprowadzić te aplikacje w województwie dolnośląskim. Jaka polityka ewaluacji zdecydowała o takiej decyzji?",
+        "all_answers": [
+            "Polityka zarządzania jakością, która poinformowała, że wdrożenie systemu grozi degradacją usługi",
+            "Ewaluacja powinna być zaangażowana od początku procesu projektowania zmiany",
+            "Polityka mówiąca o tym, że każda zmiana musi przejść przez proces ewaluacji. Gdyby udało się uniknąć tej polityki, pewnie zmiana zostałaby wprowadzona",
+            "Wszystkie zdiagnozowane niezgodności wywołają kolejne akcje"
+        ],
+        "correct_answers": [
+            "Wszystkie zdiagnozowane niezgodności wywołają kolejne akcje"
+        ]
+    },
+    {
+        "question_text": "Które z poniższych narzędzi jest najbardziej efektywnym narzędziem komunikacji do informowania o zmianach? Przy założeniu, że wszyscy interesariusze biorą w nich udział.",
+        "all_answers": [
+            "Sesje szkoleniowe dla zespołów technicznych lub klientów.",
+            "Komunikacja organizacyjna newsletter, email do wszystkich.",
+            "Sesja pytań i odpowiedzi.",
+            "Spotkania twarzą w twarz z pracownikami lub zarządzającymi zmianą."
+        ],
+        "correct_answers": [
+            "Sesje szkoleniowe dla zespołów technicznych lub klientów.",
+            "Spotkania twarzą w twarz z pracownikami lub zarządzającymi zmianą."
+        ]
+    },
+    {
+        "question_text": "W sieci hipermarketów firma ABC wprowadziła nowy system kasowy. Po ewaluacji zauważono, że w jednym z województw system nie mógł być wprowadzony ze względu na nieprawidłową komunikację. Objawiło się to tym, że pracownicy oraz kierownictwo średniego szczebla nie było poinformowane o zmianach i nie przygotowało organizacji. Technicy z tego rejonu nie dostali również wytycznych do działania. Wszystkie informacje zostały wysłane na tydzień przed zmianą. Było już za późno na przygotowanie. Jako akcje naprawcze zaproponowano wprowadzenie strategii komunikacji. Który z wymienionych elementów usprawniłby ten proces?",
+        "all_answers": [
+            "Zasada ram czasowych, zasada stylu komunikacji dostosowanego do każdej grupy.",
+            "Przestrzeganie zasady ram czasowych i komunikowanie informacji z odpowiednim wyprzedzeniem.",
+            "Powinny zostać uwzględnione dwa aspekty strategii. Po pierwsze odpowiednie kompetencje, a po drugie zaangażowanie.",
+            "Zasada ram czasowych, zasada stylu komunikacji dostosowanego do każdej grupy, aktywności zdefiniowane oraz zakres odpowiedzialności."
+        ],
+        "correct_answers": [
+            "Zasada ram czasowych, zasada stylu komunikacji dostosowanego do każdej grupy, aktywności zdefiniowane oraz zakres odpowiedzialności."
+        ]
+    },
+    {
+        "question_text": "Która z odpowiedzi opisuje cele procesu ewaluacji?",
+        "all_answers": [
+            "Ocena skuteczności podejmowanych zmian",
+            "Ustandaryzowane podejście do zmian w usłudze",
+            "Definicja oczekiwań interesariuszy i ich zrozumienie",
+            "Ryzyka i problemy są diagnozowane i można ich uniknąć w przyszłości"
+        ],
+        "correct_answers": [
+            "Ocena skuteczności podejmowanych zmian",
+            "Ustandaryzowane podejście do zmian w usłudze",
+            "Ryzyka i problemy są diagnozowane i można ich uniknąć w przyszłości"
+        ]
+    },
+    {
+        "question_text": "Mapowanie interesariuszy obejmuje:",
+        "all_answers": [
+            "Diagnozę interesariuszy",
+            "Określenie pozycji interesariuszy.",
+            "Matrycę wpływu interesariuszy"
+        ],
+        "correct_answers": [
+            "Diagnozę interesariuszy",
+            "Określenie pozycji interesariuszy.",
+            "Matrycę wpływu interesariuszy"
+        ]
+    },
+    {
+        "question_text": "Dokonując mapowania interesariuszy przy wdrożeniu nowej usługi fryzjerskiej powinieneś wziąć pod uwagę:",
+        "all_answers": [
+            "Określenie, który z interesariuszy jest najsilniejszy i na nim się skupić.",
+            "Pozycjonowanie interesariuszy przez przypisanie im obszarów, w których są decyzyjni.",
+            "Określenie, gdzie chciałbyś ich widzieć w swojej mapie i jak sprawić, aby się tam znaleźli.",
+            "Poprawne zdiagnozowanie interesariuszy – klienci, dostawcy sprzętu, wynajmujący lokal, społeczność lokalna."
+        ],
+        "correct_answers": [
+            "Poprawne zdiagnozowanie interesariuszy – klienci, dostawcy sprzętu, wynajmujący lokal, społeczność lokalna."
+        ]
+    },
+    {
+        "question_text": "Które z poniższych elementów są istotne z punktu widzenia ścieżki komunikacji",
+        "all_answers": [
+            "Baseline i analiza niezgodności",
+            "Informacja zwrotna",
+            "Diagnoza potencjału liderskiego",
+            "Strategia, misja i wizja"
+        ],
+        "correct_answers": [
+            "Informacja zwrotna"
+        ]
+    },
+    {
+        "question_text": "Ewaluacja zmiany dotyczącej wprowadzenia nowego systemu kasowego w jednej z sieci hipermarketów została przeprowadzona następującymi krokami:",
+        "all_answers": [
+            "Proces porównania wartości dla biznesu z potencjalnymi ryzykami doprowadził kierownika zmiany do podjęcia takiej decyzji",
+            "Dokonano planowania ewaluacji, wykonano ewaluacje i podjęto decyzję co do dalszych kroków",
+            "Zaplanowanie ewaluacji, wykonanie ewaluacji, weryfikacja jej poprawności i podjęcie decyzji",
+            "Przegląd zmiany, przegląd ryzyk i planów wycofania zmiany, decyzja odnośnie dalszych kroków"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Które z poniższych narzędzi jest najbardziej efektywnym narzędziem komunikacji do informowania o zmianach? Przy założeniu, że wszyscy interesariusze biorą w nich udział.",
+        "all_answers": [
+            "Spotkania twarzą w twarz z pracownikami lub zarządzającymi zmianą.",
+            "Komunikacja organizacyjna newsletter, email do wszystkich.",
+            "Sesje szkoleniowe dla zespołów technicznych lub klientów.",
+            "Sesja pytań i odpowiedzi."
+        ],
+        "correct_answers": [
+            "Sesje szkoleniowe dla zespołów technicznych lub klientów."
+        ]
+    },
+    {
+        "question_text": "W sieci hipermarketów firma ABC wprowadziła nowy system kasowy. Po ewaluacji zauważono, że w jednym z województw system nie mógł być wprowadzony ze względu na nieprawidłową komunikację. Objawiło się to tym, że pracownicy oraz kierownictwo średniego szczebla nie było poinformowane o zmianach i nie przygotowało organizacji. Technicy z tego rejonu nie dostali również wytycznych do działania. Wszystkie informacje zostały wysłane na tydzień przed zmianą. Było już za późno na przygotowanie. Jako akcje naprawcze zaproponowano wprowadzenie strategii komunikacji. Który z wymienionych elementów usprawniłby ten proces?",
+        "all_answers": [
+            "Zasada ram czasowych, zasada stylu komunikacji dostosowanego do każdej grupy, aktywności zdefiniowane oraz zakres odpowiedzialności.",
+            "Przestrzeganie zasady ram czasowych i komunikowanie informacji z odpowiednim wyprzedzeniem.",
+            "Zasada ram czasowych, zasada stylu komunikacji dostosowanego do każdej grupy.",
+            "Powinny zostać uwzględnione dwa aspekty strategii. Po pierwsze odpowiednie kompetencje, a po drugie zaangażowanie."
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Mapowanie interesariuszy obejmuje:",
+        "all_answers": [
+            "Matrycę wpływu interesariuszy",
+            "Określenie pozycji interesariuszy.",
+            "Diagnozę interesariuszy"
+        ],
+        "correct_answers": [
+            "Diagnozę interesariuszy"
+        ]
+    },
+    {
+        "question_text": "Metodyka Prince2 składa się z:",
+        "all_answers": [
+            "Pryncypia",
+            "Dostosowanie środowiska",
+            "Tematy",
+            "Procesy"
+        ],
+        "correct_answers": [
+            "Pryncypia"
+        ]
+    },
+    {
+        "question_text": "Za przygotowanie i wdrożenie planu projektu odpowiada:",
+        "all_answers": [
+            "Członkowie zespołu projektowego",
+            "Kierownik projektu",
+            "Komitet sterujący",
+            "Koordynator projektu"
+        ],
+        "correct_answers": [
+            "Kierownik projektu"
+        ]
+    },
+    {
+        "question_text": "Zaznacz stwierdzenia, które są poprawne w kontekście implementacji wdrożenia:",
+        "all_answers": [
+            "Musi mieć solidne podstawy finansowe.",
+            "Musi godzić usługi dostarczane ze zmienianymi.",
+            "Rzadko odbywa się jako budowanie czegoś od nowa.",
+            "Zmiana w istniejącej lub wdrożenie nowej usługi ma minimalny wpływ na całą organizację."
+        ],
+        "correct_answers": [
+            "Musi mieć solidne podstawy finansowe.",
+            "Musi godzić usługi dostarczane ze zmienianymi.",
+            "Rzadko odbywa się jako budowanie czegoś od nowa."
+        ]
+    },
+    {
+        "question_text": "Implementacja wdrożenia będzie współpracowała z różnymi fazami cyklu życia usługi. Które z poniższych zdań trafnie opisuje tę współpracę?",
+        "all_answers": [
+            "Narzędzia wdrożenia wykorzystuje się wyłącznie w fazie wdrożenia i projektowania.",
+            "Faza wdrożenia czerpie z projektu optymalizując go i modyfikując zgodnie z potrzebami.",
+            "Planowanie fazy wdrożenia potrzebne jest Service Design Package do dostarczenia pełnego obrazu i zrozumienia, jaki jest oczekiwany efekt końcowy.",
+            "Podczas implementacji wdrożenia, definiuje się polityki zagrożenia dla danej usługi."
+        ],
+        "correct_answers": [
+            "Faza wdrożenia czerpie z projektu optymalizując go i modyfikując zgodnie z potrzebami."
+        ]
+    },
+    {
+        "question_text": "Która z podanych list pryncypiów zawiera wyłącznie elementy metodyki Prince2?",
+        "all_answers": [
+            "Ciągła zasadność biznesowa, Planowanie akcji.",
+            "Dostosowanie do warunków projektu, Zarządzanie jakością",
+            "Korzystanie z doświadczeń, Zdefiniowane role i obowiązki.",
+            "Koncentracja na produkcie, zarządzanie etapowe."
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Faza wdrożenia jest elementem cyklu życia usługi. Z jakimi innymi fazami cyklu życia współpracuje?",
+        "all_answers": [
+            "Z fazą strategii, operacji, projektowania i ciągłej poprawy",
+            "Ze strategią, operacją i projektowaniem",
+            "Z fazą operacji i projektowania",
+            "Z wszystkimi fazami"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Która z podanych list pryncypiów zawiera wyłącznie elementy metodyki Prince2?",
+        "all_answers": [
+            "Ciągła zasadność biznesowa, Planowanie akcji.",
+            "Dostosowanie do warunków projektu, Zarządzanie jakością",
+            "Koncentracja na produkcie, zarządzanie etapowe.",
+            "Korzystanie z doświadczeń, Zdefiniowane role i obowiązki."
+        ],
+        "correct_answers": [
+            "Koncentracja na produkcie, zarządzanie etapowe.",
+            "Korzystanie z doświadczeń, Zdefiniowane role i obowiązki."
+        ]
+    },
+    {
+        "question_text": "Za przygotowanie i wdrożenie planu projektu odpowiada:",
+        "all_answers": [
+            "Kierownik projektu",
+            "Komitet sterujący",
+            "Członkowie zespołu projektowego",
+            "Koordynator projektu"
+        ],
+        "correct_answers": [
+            "Kierownik projektu"
+        ]
+    },
+    {
+        "question_text": "Metodyka Prince2 wskazuje najlepsze praktyki do zarządzania projektami. Jakie są elementy cyklu sterowania projektem Prince2?",
+        "all_answers": [
+            "Monitoruj, planuj, deleguj, kontroluj",
+            "Planuj, kontroluj, monitoruj, deleguj",
+            "Planuj, deleguj, monitoruj, kontroluj",
+            "Planuj, kontroluj, deleguj, monitoruj"
+        ],
+        "correct_answers": [
+            "Planuj, deleguj, monitoruj, kontroluj"
+        ]
+    },
+    {
+        "question_text": "Implementacja wdrożenia będzie współpracowała z różnymi fazami cyklu życia usługi. Które z poniższych zdań trafnie opisuje tę współpracę?",
+        "all_answers": [
+            "Narzędzia wdrożenia wykorzystuje się wyłącznie w fazie wdrożenia i projektowania.",
+            "Planowanie fazy wdrożenia potrzebne jest Service Design Package do dostarczenia pełnego obrazu i zrozumienia, jaki jest oczekiwany efekt końcowy.",
+            "Faza wdrożenia czerpie z projektu optymalizując go i modyfikując zgodnie z potrzebami.",
+            "Podczas implementacji wdrożenia, definiuje się polityki zagrożenia dla danej usługi."
+        ],
+        "correct_answers": [
+            "Planowanie fazy wdrożenia potrzebne jest Service Design Package do dostarczenia pełnego obrazu i zrozumienia, jaki jest oczekiwany efekt końcowy.",
+            "Faza wdrożenia czerpie z projektu optymalizując go i modyfikując zgodnie z potrzebami."
+        ]
+    },
+    {
+        "question_text": "Zarządzanie zmianą w projekcie (w ramach Prince2) jest:",
+        "all_answers": [
+            "Jednym z pryncypiów, bez niej niego nie da się funkcjonować w projekcie",
+            "Jednym z procesów podobnie jak w cyklu życia ITIL",
+            "Jednym z tematów, wskazuje jak przeprowadzić efektywnie zmianę",
+            "Strategicznym elementem zarządzania projektami"
+        ],
+        "correct_answers": [
+            "Jednym z tematów, wskazuje jak przeprowadzić efektywnie zmianę"
+        ]
+    },
+    {
+        "question_text": "Zaznacz stwierdzenia, które są poprawne w kontekście implementacji wdrożenia:",
+        "all_answers": [
+            "Musi mieć solidne podstawy finansowe.",
+            "Musi godzić usługi dostarczane ze zmienianymi.",
+            "Zmiana w istniejącej lub wdrożenie nowej usługi ma minimalny wpływ na całą organizację.",
+            "Rzadko odbywa się jako budowanie czegoś od nowa."
+        ],
+        "correct_answers": [
+            "Musi mieć solidne podstawy finansowe.",
+            "Musi godzić usługi dostarczane ze zmienianymi.",
+            "Rzadko odbywa się jako budowanie czegoś od nowa."
+        ]
+    },
+    {
+        "question_text": "Zaznacz stwierdzenia, które są poprawne w kontekście implementacji wdrożenia:",
+        "all_answers": [
+            "Musi mieć solidne podstawy finansowe.",
+            "Zmiana w istniejącej lub wdrożenie nowej usługi ma minimalny wpływ na całą organizację.",
+            "Musi godzić usługi dostarczane ze zmienianymi.",
+            "Rzadko odbywa się jako budowanie czegoś od nowa."
+        ],
+        "correct_answers": [
+            "Musi mieć solidne podstawy finansowe."
+        ]
+    },
+    {
+        "question_text": "Metodyka Prince2 składa się z:",
+        "all_answers": [
+            "Procesy",
+            "Pryncypia",
+            "Dostosowanie środowiska",
+            "Tematy"
+        ],
+        "correct_answers": [
+            "Dostosowanie środowiska"
+        ]
+    },
+    {
+        "question_text": "Zarządzanie zmianą w projekcie (w ramach Prince2) jest:",
+        "all_answers": [
+            "Jednym z pryncypiów, bez niej niego nie da się funkcjonować w projekcie",
+            "Strategicznym elementem zarządzania projektami",
+            "Jednym z procesów podobnie jak w cyklu życia ITIL",
+            "Jednym z tematów, wskazuje jak przeprowadzić efektywnie zmianę"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Za przygotowanie i wdrożenie planu projektu odpowiada:",
+        "all_answers": [
+            "Komitet sterujący",
+            "Kierownik projektu",
+            "Członkowie zespołu projektowego",
+            "Koordynator projektu"
+        ],
+        "correct_answers": [
+            "Kierownik projektu"
+        ]
+    },
+    {
+        "question_text": "Metodyka Prince2 wskazuje najlepsze praktyki do zarządzania projektami. Jakie są elementy cyklu sterowania projektem Prince2?",
+        "all_answers": [
+            "Monitoruj, planuj, deleguj, kontroluj",
+            "Planuj, kontroluj, monitoruj, deleguj",
+            "Planuj, kontroluj, deleguj, monitoruj",
+            "Planuj, deleguj, monitoruj, kontroluj"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Faza wdrożenia jest elementem cyklu życia usługi. Z jakimi innymi fazami cyklu życia współpracuje?",
+        "all_answers": [
+            "Ze strategią, operacją i projektowaniem",
+            "Z fazą strategii, operacji, projektowania i ciągłej poprawy",
+            "Z wszystkimi fazami",
+            "Z fazą operacji i projektowania"
+        ],
+        "correct_answers": [
+            "Z fazą strategii, operacji, projektowania i ciągłej poprawy"
+        ]
+    }
+]

@@ -1,7 +1,10 @@
 import os
 import re
+from io import StringIO
 
-from pypdf import PdfReader, PdfWriter  # Używamy nowszej biblioteki pypdf
+# Importujemy z pdfminer.six
+from pdfminer.high_level import extract_text_to_fp
+from pdfminer.layout import LAParams
 from reportlab.lib.colors import black, green, red
 from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import A4
@@ -11,8 +14,6 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer
 
 # --- WAŻNE: Konfiguracja czcionki dla polskich znaków ---
-# Ponownie, aby polskie znaki były poprawnie wyświetlane w nowych PDF-ach,
-# upewnij się, że pliki czcionek są dostępne w tym samym katalogu co skrypt.
 FONT_NAME = "DejaVuSans"
 FONT_FILE = "DejaVuSans.ttf"
 FONT_BOLD_FILE = "DejaVuSans-Bold.ttf"
@@ -37,109 +38,110 @@ except Exception as e:
     FONT_NAME = "Helvetica"  # Fallback
 
 
+def extract_text_with_pdfminer(pdf_path):
+    """
+    Ekstrahuje tekst z PDF z lepszym zachowaniem układu za pomocą pdfminer.six.
+    Dostosowane LAParams dla lepszej separacji linii.
+    """
+    output_string = StringIO()
+    # Dostosowane LAParams - line_margin (domyślnie 0.5) i word_margin (domyślnie 0.1)
+    # Zwiększenie line_margin może pomóc w oddzielaniu linii, które są "blisko siebie" pionowo,
+    # ale powinny być traktowane jako osobne, np. różne odpowiedzi.
+    # Użycie domyślnych na początek, jeśli nie działa, można eksperymentować.
+    laparams = LAParams(line_margin=0.6, char_margin=2.0)  # Zwiększ marginesy
+    with open(pdf_path, "rb") as in_file:
+        extract_text_to_fp(
+            in_file, output_string, laparams=laparams, output_type="text", codec="utf-8"
+        )
+    return output_string.getvalue()
+
+
 def parse_pdf_for_questions(pdf_path):
     """
     Parsuje tekst z pojedynczego pliku PDF i wyodrębnia pytania,
-    dostępne odpowiedzi i zidentyfikowane poprawne odpowiedzi.
+    dostępne odpowiedzi i zidentyfikowane poprawne odpowiedzi,
+    używając tekstu z pdfminer.six i regex.
     """
     questions = []
-    try:
-        reader = PdfReader(pdf_path)
-        current_question = {}
-        in_question_block = False
-        in_answers_block = False
-        in_correct_answer_block = False
+    full_text = extract_text_with_pdfminer(pdf_path)
 
-        for page in reader.pages:
-            text = page.extract_text()
-            lines = text.split("\n")
+    # Używamy unikalnych znaczników końca sekcji, jeśli tekst jest zbyt "zbity"
+    # Jeśli nadal są problemy, możesz zmodyfikować pierwszy skrypt, aby dodawał
+    # np. `###KONIEC_DOSTEPNYCH_ODPOWIEDZI###`
 
-            for line in lines:
-                line = line.strip()
+    # Regex do dopasowania całych bloków pytań. Używamy (?s) dla flagi DOTALL.
+    # Wzorzec szuka "Pytanie:", potem dowolnego tekstu (nie zachłanne),
+    # potem "Dostępne odpowiedzi:", dowolnego tekstu (nie zachłanne),
+    # potem "Poprawna odpowiedź:", i dowolnego tekstu (nie zachłanne) do
+    # kolejnego "Pytanie:" lub "--- PAGE \d+ ---" lub końca pliku.
+    # Dodano opcjonalne znaczniki stron w regexie.
+    question_pattern = re.compile(
+        r"Pytanie:\s*(.*?)\s*Dostępne odpowiedzi:\s*(.*?)\s*Poprawna odpowiedź:\s*(.*?)(?=\s*Pytanie:|\s*--- PAGE \d+ ---|\Z)",
+        re.DOTALL,
+    )
 
-                if line.startswith("--- PAGE"):  # Ignoruj znaczniki stron ReportLab
-                    continue
+    matches = question_pattern.finditer(full_text)
 
-                if line.startswith("Pytanie:"):
-                    if current_question:  # Zapisz poprzednie pytanie
-                        questions.append(current_question)
-                    current_question = {
-                        "question_text": "",
-                        "all_answers": [],
-                        "correct_answers": [],
-                        "has_identified_correct_answer": False,
-                    }
-                    in_question_block = True
-                    in_answers_block = False
-                    in_correct_answer_block = False
-                    current_question["question_text"] = line.replace(
-                        "Pytanie:", ""
-                    ).strip()
-                    continue
+    for match in matches:
+        question_text_raw = match.group(1).strip()
+        all_answers_raw = match.group(2).strip()
+        correct_answer_raw = match.group(3).strip()
 
-                if line.startswith("Dostępne odpowiedzi:"):
-                    in_question_block = False
-                    in_answers_block = True
-                    in_correct_answer_block = False
-                    continue
+        # Usuwamy wszelkie znaczniki stron, które mogły się wślizgnąć w tekst
+        question_text_raw = re.sub(r"--- PAGE \d+ ---", "", question_text_raw).strip()
+        all_answers_raw = re.sub(r"--- PAGE \d+ ---", "", all_answers_raw).strip()
+        correct_answer_raw = re.sub(r"--- PAGE \d+ ---", "", correct_answer_raw).strip()
 
-                if line.startswith("Poprawna odpowiedź:"):
-                    in_question_block = False
-                    in_answers_block = False
-                    in_correct_answer_block = True
-                    if "(nie udało się zidentyfikować lub brak)" not in line:
-                        current_question["has_identified_correct_answer"] = True
-                    else:
-                        current_question["has_identified_correct_answer"] = (
-                            False  # Wyraźnie oznacz
-                        )
+        # --- NOWA LOGIKA PARSOWANIA Dostępnych Odpowiedzi ---
+        all_answers = []
+        # Wzorzec dopasowujący pojedynczą odpowiedź: zaczyna się od '-', potem dowolny tekst,
+        # aż do kolejnego '-' lub końca sekcji odpowiedzi.
+        # Używamy (?s) wew. wyrażenia, aby kropka działała na wiele linii.
+        # (?:-|\Z) to szukanie kolejnego minusa LUB końca stringa
+        answer_option_pattern = re.compile(
+            r"-\s*(.*?)(?=\s*-|\s*Poprawna odpowiedź:|\Z)", re.DOTALL
+        )
 
-                    # Czasem odpowiedź jest od razu po "Poprawna odpowiedź:"
-                    if (
-                        "(nie udało się zidentyfikować lub brak)" not in line
-                        and len(line.split(":", 1)) > 1
-                    ):
-                        remainder = line.split(":", 1)[1].strip()
-                        if remainder and not remainder.startswith(
-                            "("
-                        ):  # Jeśli to nie jest komunikat o braku
-                            # Usunięcie "- " na początku, jeśli tam jest
-                            extracted_ans = remainder.lstrip("- ").strip()
-                            if (
-                                extracted_ans
-                                and extracted_ans
-                                not in current_question["correct_answers"]
-                            ):
-                                current_question["correct_answers"].append(
-                                    extracted_ans
-                                )
-                    continue
+        # Znajdujemy wszystkie dopasowania opcji w bloku 'Dostępne odpowiedzi'
+        # Odpowiedzi mogą być złamane na wiele linii, więc używamy finditer na całym bloku all_answers_raw
+        for ans_match in answer_option_pattern.finditer(all_answers_raw):
+            ans_text = ans_match.group(1).strip()
+            if ans_text:
+                all_answers.append(ans_text)
 
-                # Dodawanie treści do bieżących bloków
-                if in_question_block and line:
-                    current_question["question_text"] += " " + line
-                elif in_answers_block and line.startswith("-"):
-                    current_question["all_answers"].append(line.lstrip("- ").strip())
-                elif in_correct_answer_block and line.startswith("-"):
-                    # Ta linia powinna być przetwarzana tylko jeśli 'has_identified_correct_answer' jest True
-                    # co oznacza, że poprzednia linia Poprawna odpowiedź: nie zawierała 'nie udało się zidentyfikować'
-                    if current_question["has_identified_correct_answer"]:
-                        current_question["correct_answers"].append(
-                            line.lstrip("- ").strip()
-                        )
+        # --- NOWA LOGIKA PARSOWANIA Poprawnej Odpowiedzi ---
+        correct_answers = []
+        has_identified_correct_answer = False
 
-        if current_question:  # Dodaj ostatnie pytanie
-            questions.append(current_question)
+        if "(nie udało się zidentyfikować lub brak)" not in correct_answer_raw:
+            has_identified_correct_answer = True
+            # Używamy tego samego wzorca dla poprawnych odpowiedzi
+            for corr_ans_match in answer_option_pattern.finditer(correct_answer_raw):
+                ans_text = corr_ans_match.group(1).strip()
+                if ans_text:
+                    correct_answers.append(ans_text)
 
-    except Exception as e:
-        print(f"Błąd podczas parsowania pliku PDF {pdf_path}: {e}")
+            # Dodatkowa obsługa, jeśli poprawna odpowiedź nie ma formatu listy (-)
+            if (
+                not correct_answers
+                and correct_answer_raw.strip()
+                and not correct_answer_raw.strip().startswith("(")
+            ):
+                # Jeśli wciąż brak, a tekst jest, potraktuj całą zawartość jako jedną odpowiedź
+                # o ile nie jest to komunikat o braku odpowiedzi
+                correct_answers.append(correct_answer_raw.strip())
 
-    # Po zakończeniu parsowania każdej strony, oczyść tekst pytań i odpowiedzi
-    for q in questions:
-        q["question_text"] = q["question_text"].strip()
-        q["all_answers"] = [ans.strip() for ans in q["all_answers"]]
-        q["correct_answers"] = [ans.strip() for ans in q["correct_answers"]]
+        # Upewnij się, że tekst pytania jest czysty
+        question_text = question_text_raw.strip()
 
+        questions.append(
+            {
+                "question_text": question_text,
+                "all_answers": all_answers,
+                "correct_answers": correct_answers,
+                "has_identified_correct_answer": has_identified_correct_answer,
+            }
+        )
     return questions
 
 
@@ -174,6 +176,9 @@ def generate_merged_pdf(output_pdf_path, questions_list):
     question_style.alignment = TA_LEFT
     question_style.spaceAfter = 6
     question_style.textColor = black
+    question_style.allowBreakWords = True  # Pozwól na łamanie słów
+    question_style.splitLongWords = True  # Rozdzielaj długie słowa
+    question_style.wordWrap = "CJK"  # Ułatwia łamanie wierszy
 
     answer_style = styles["Normal"]
     answer_style.fontName = FONT_NAME
@@ -182,6 +187,9 @@ def generate_merged_pdf(output_pdf_path, questions_list):
     answer_style.leftIndent = 20
     answer_style.spaceAfter = 3
     answer_style.textColor = black
+    answer_style.allowBreakWords = True
+    answer_style.splitLongWords = True
+    answer_style.wordWrap = "CJK"
 
     correct_answer_style = styles["Normal"]
     correct_answer_style.fontName = FONT_NAME
@@ -190,6 +198,9 @@ def generate_merged_pdf(output_pdf_path, questions_list):
     correct_answer_style.leftIndent = 20
     correct_answer_style.textColor = green
     correct_answer_style.spaceAfter = 3
+    correct_answer_style.allowBreakWords = True
+    correct_answer_style.splitLongWords = True
+    correct_answer_style.wordWrap = "CJK"
 
     no_correct_answer_style = styles["Normal"]
     no_correct_answer_style.fontName = FONT_NAME
@@ -198,6 +209,9 @@ def generate_merged_pdf(output_pdf_path, questions_list):
     no_correct_answer_style.leftIndent = 20
     no_correct_answer_style.textColor = red  # Zaznacz na czerwono, że brak odpowiedzi
     no_correct_answer_style.spaceAfter = 3
+    no_correct_answer_style.allowBreakWords = True
+    no_correct_answer_style.splitLongWords = True
+    no_correct_answer_style.wordWrap = "CJK"
 
     for i, q_data in enumerate(questions_list):
         if not q_data["question_text"].strip():
@@ -213,9 +227,6 @@ def generate_merged_pdf(output_pdf_path, questions_list):
         if q_data["all_answers"]:
             story.append(Paragraph("<b>Dostępne odpowiedzi:</b>", answer_style))
             for ans in q_data["all_answers"]:
-                # W tym generowaniu, kolorujemy tylko poprawną odpowiedź, jeśli jest znana.
-                # W pliku "z identyfikacją" będzie zielona, w "bez identyfikacji" czarna
-                # Chyba że chcemy zaznaczyć na czerwono, że nie ma poprawnej odpowiedzi.
                 if (
                     q_data["has_identified_correct_answer"]
                     and ans in q_data["correct_answers"]
@@ -248,9 +259,7 @@ def generate_merged_pdf(output_pdf_path, questions_list):
 
 if __name__ == "__main__":
     # --- Konfiguracja katalogów i nazw plików wyjściowych ---
-    input_pdf_directory = (
-        "result_pdf"  # Katalog z PDF-ami wygenerowanymi przez pierwszy skrypt
-    )
+    input_pdf_directory = "wdrazanie_uslugi/result_pdf"  # Katalog z PDF-ami wygenerowanymi przez pierwszy skrypt
     output_pdf_identified = "Merged_Quiz_Pytania_Z_Odpowiedziami.pdf"
     output_pdf_unidentified = "Merged_Quiz_Pytania_Bez_Odpowiedzi.pdf"
     # --- Konfiguracja End ---
@@ -283,13 +292,12 @@ if __name__ == "__main__":
                 q_data["question_text"]
             )
 
+            # Jeśli pytanie ma zidentyfikowaną odpowiedź, dodaj je do słownika unikalnych
             if q_data["has_identified_correct_answer"]:
-                # Jeśli pytanie ma zidentyfikowaną odpowiedź, dodaj je do słownika unikalnych
-                # lub zaktualizuj, jeśli już istnieje (ale powinno być unikalne po czyszczeniu)
                 if cleaned_question_text not in unique_questions_identified:
                     unique_questions_identified[cleaned_question_text] = q_data
             else:
-                # Pytania bez zidentyfikowanej odpowiedzi trafiają do osobnej listy
+                # Pytania bez zidentyfikowanej odpowiedzi trafiają do osobnej listy.
                 unidentified_questions.append(q_data)
 
         # Konwersja słownika na listę do generowania PDF

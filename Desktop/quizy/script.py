@@ -327,8 +327,8 @@ def generate_pdf(output_pdf_path, questions_list):
 
 if __name__ == "__main__":
     # --- Konfiguracja ścieżek ---
-    html_files_directory = "quiz_4"
-    output_pdf_name = "result_pdf/Quiz4_Pytania_i_Odpowiedzi.pdf"
+    html_files_directory = "wdrazanie_uslugi/quiz_6"
+    output_pdf_name = "wdrazanie_uslugi/result_pdf/quiz6.pdf"
     # --- Konfiguracja End ---
 
     all_questions = []

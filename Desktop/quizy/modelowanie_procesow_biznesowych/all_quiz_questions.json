@@ -1,0 +1,928 @@
+[
+    {
+        "question_text": "Obszarem procesowym jest :",
+        "all_answers": [
+            "zarządzanie zdarzeniem",
+            "zebranie informacji o kliencie",
+            "badania i rozwój",
+            "dostarczenie produktu"
+        ],
+        "correct_answers": [
+            "zebranie informacji o kliencie",
+            "badania i rozwój"
+        ]
+    },
+    {
+        "question_text": "Dostarczenie towaru z punktu A do punktu B to proces usługowy. Co będzie jego cechą?",
+        "all_answers": [
+            "niepewność",
+            "mierzalność",
+            "reakcja na bodziec",
+            "tymczasowość"
+        ],
+        "correct_answers": [
+            "mierzalność",
+            "reakcja na bodziec"
+        ]
+    },
+    {
+        "question_text": "W przedsiębiorstwie zajmującym się rozliczeniami faktur proces księgowania jest:",
+        "all_answers": [
+            "procesem strategicznym",
+            "procesem zarządczym",
+            "procesem pomocniczym",
+            "procesem głównym"
+        ],
+        "correct_answers": [
+            "procesem głównym"
+        ]
+    },
+    {
+        "question_text": "Została Ci zlecona pełna dekompozycja procesu zarządzania konfiguracją dla klienta A. Wiesz, że obecna baza danych zawiera błędy i nie jest dostępna dla wszystkich osób, które powinny mieć do niej dostęp. Z dogłębnej analizy wynika, że zespół wprowadzający dane do bazy wprowadza je grupowo a nie pojedynczo, jak jest to zdefiniowane w procesie, co powoduje dezinformacje. Który element procesu jest tu wadliwy?",
+        "all_answers": [
+            "grupy procesowe – to błąd człowieka powoduje błędy w bazie",
+            "krok procesu – to aktualizowanie baz danych nie funkcjonuje",
+            "aktywności procesowe – samo wprowadzanie jest aktywnością, która powoduje problem",
+            "obszary procesowe – całe zarządzanie konfiguracją jest obszarem i kluczowym elementem usługi"
+        ],
+        "correct_answers": [
+            "aktywności procesowe – samo wprowadzanie jest aktywnością, która powoduje problem"
+        ]
+    },
+    {
+        "question_text": "Czym zajmują się obszary procesu?",
+        "all_answers": [
+            "zagregowaną grupą procesów",
+            "najmniejszymi aktywnościami procesowymi",
+            "naturą procesu",
+            "przebiegiem samego procesu"
+        ],
+        "correct_answers": [
+            "zagregowaną grupą procesów"
+        ]
+    },
+    {
+        "question_text": "Proces to:",
+        "all_answers": [
+            "Zespół aktywności prowadzący do określonego rezultatu o zdefiniowanych parametrach sukcesu.",
+            "Charakterystyką procesu jest jego mierzalność, reakcja na bodzieć i określony rezultat",
+            "Zespół aktywności prowadzący do osiągnięcia ściśle określonego celu. Uzyskując mierzalne efekty i optymalizując wykorzystanie zasobów.",
+            "Zespół aktywności prowadzący do osiągnięcia ściśle określonego celu."
+        ],
+        "correct_answers": [
+            "Zespół aktywności prowadzący do osiągnięcia ściśle określonego celu. Uzyskując mierzalne efekty i optymalizując wykorzystanie zasobów."
+        ]
+    },
+    {
+        "question_text": "Czym zajmują się obszary procesu?",
+        "all_answers": [
+            "najmniejszymi aktywnościami procesowymi",
+            "naturą procesu",
+            "przebiegiem samego procesu",
+            "zagregowaną grupą procesów"
+        ],
+        "correct_answers": [
+            "zagregowaną grupą procesów"
+        ]
+    },
+    {
+        "question_text": "Czym proces biznesowy różni się od standardowego procesu?",
+        "all_answers": [
+            "jest mierzalny",
+            "wynikiem procesu",
+            "celem procesu",
+            "posiadają różny początek"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Została Ci zlecona pełna dekompozycja procesu zarządzania konfiguracją dla klienta A. Wiesz, że obecna baza danych zawiera błędy i nie jest dostępna dla wszystkich osób, które powinny mieć do niej dostęp. Z dogłębnej analizy wynika, że zespół wprowadzający dane do bazy wprowadza je grupowo a nie pojedynczo, jak jest to zdefiniowane w procesie, co powoduje dezinformacje. Który element procesu jest tu wadliwy?",
+        "all_answers": [
+            "krok procesu – to aktualizowanie baz danych nie funkcjonuje",
+            "aktywności procesowe – samo wprowadzanie jest aktywnością, która powoduje problem",
+            "grupy procesowe – to błąd człowieka powoduje błędy w bazie",
+            "obszary procesowe – całe zarządzanie konfiguracją jest obszarem i kluczowym elementem usługi"
+        ],
+        "correct_answers": [
+            "aktywności procesowe – samo wprowadzanie jest aktywnością, która powoduje problem"
+        ]
+    },
+    {
+        "question_text": "Manager procesu tworzy proces zakupu materiałów biurowych dla firmy x. Roczne budżetowanie procesu zarządzania zakupami materiałów biurowych jest procesem:",
+        "all_answers": [
+            "zarządczym",
+            "głównym",
+            "wspierającym",
+            "operacyjnym"
+        ],
+        "correct_answers": [
+            "zarządczym"
+        ]
+    },
+    {
+        "question_text": "Dostarczenie towaru z punktu A do punktu B to proces usługowy. Co będzie jego cechą?",
+        "all_answers": [
+            "reakcja na bodziec",
+            "mierzalność",
+            "niepewność",
+            "tymczasowość"
+        ],
+        "correct_answers": [
+            "reakcja na bodziec",
+            "mierzalność"
+        ]
+    },
+    {
+        "question_text": "Cechami procesu są:",
+        "all_answers": [
+            "mierzalność, zaplanowane kroki",
+            "reakcja na bodziec, zaplanowane kroki",
+            "reakcja na bodziec, konsekwencja",
+            "mierzalność, określony rezultat"
+        ],
+        "correct_answers": [
+            "mierzalność, określony rezultat"
+        ]
+    },
+    {
+        "question_text": "Proces to:",
+        "all_answers": [
+            "Zespół aktywności prowadzący do określonego rezultatu o zdefiniowanych parametrach sukcesu.",
+            "Charakterystyką procesu jest jego mierzalność, reakcja na bodzieć i określony rezultat",
+            "Zespół aktywności prowadzący do osiągnięcia ściśle określonego celu.",
+            "Zespół aktywności prowadzący do osiągnięcia ściśle określonego celu. Uzyskując mierzalne efekty i optymalizując wykorzystanie zasobów."
+        ],
+        "correct_answers": [
+            "Zespół aktywności prowadzący do osiągnięcia ściśle określonego celu. Uzyskując mierzalne efekty i optymalizując wykorzystanie zasobów."
+        ]
+    },
+    {
+        "question_text": "Czym proces biznesowy różni się od standardowego procesu?",
+        "all_answers": [
+            "posiadają różny początek",
+            "celem procesu",
+            "wynikiem procesu",
+            "jest mierzalny"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "W przedsiębiorstwie zajmującym się rozliczeniami faktur proces księgowania jest:",
+        "all_answers": [
+            "procesem strategicznym",
+            "procesem głównym",
+            "procesem zarządczym",
+            "procesem pomocniczym"
+        ],
+        "correct_answers": [
+            "procesem głównym"
+        ]
+    },
+    {
+        "question_text": "Obszarem procesowym jest :",
+        "all_answers": [
+            "zebranie informacji o kliencie",
+            "dostarczenie produktu",
+            "zarządzanie zdarzeniem",
+            "badania i rozwój"
+        ],
+        "correct_answers": [
+            "badania i rozwój"
+        ]
+    },
+    {
+        "question_text": "Manager procesu tworzy proces zakupu materiałów biurowych dla firmy x. Roczne budżetowanie procesu zarządzania zakupami materiałów biurowych jest procesem:",
+        "all_answers": [
+            "głównym",
+            "wspierającym",
+            "operacyjnym",
+            "zarządczym"
+        ],
+        "correct_answers": [
+            "zarządczym"
+        ]
+    },
+    {
+        "question_text": "Cechami procesu są:",
+        "all_answers": [
+            "reakcja na bodziec, konsekwencja",
+            "mierzalność, określony rezultat",
+            "mierzalność, zaplanowane kroki",
+            "reakcja na bodziec, zaplanowane kroki"
+        ],
+        "correct_answers": [
+            "mierzalność, określony rezultat"
+        ]
+    },
+    {
+        "question_text": "Jaką rolę pełni diagram SIPOC?",
+        "all_answers": [
+            "Diagram SIPOC jest stosowany wyłącznie jako narzędzie pomiarowe w metodzie DMAIC.",
+            "Diagram SIPOC jest stosowany jako narzędzie pomiarowe w metodzie DMAIC. Pozwala na mapowanie strumienia wartości procesu.",
+            "Diagram SIPOC jest stosowany do określenia wszystkich elementów procesu oraz jako narzędzie pomiarowe w metodzie DMAIC. Pozwala na zobrazowanie procesu, który może nie być optymalnie zdefiniowany. Uwidacznia też braki co pozwala zdiagnozować problemy w procesie.",
+            "Diagram SIPOC jest stosowany jako narzędzie pomiarowe w metodzie DMAIC. Pozwala na zobrazowanie procesu, który może nie być optymalnie zdefiniowany. Uwidacznia braki co pozwala zdiagnozować problemy w procesie. Zwraca szczególną rolę na klienta w procesie."
+        ],
+        "correct_answers": [
+            "Diagram SIPOC jest stosowany do określenia wszystkich elementów procesu oraz jako narzędzie pomiarowe w metodzie DMAIC. Pozwala na zobrazowanie procesu, który może nie być optymalnie zdefiniowany. Uwidacznia też braki co pozwala zdiagnozować problemy w procesie."
+        ]
+    },
+    {
+        "question_text": "Jak nazywa się notacja wymyślona dla specjalistów ds. sprzedaży prezentujących narzędzia informatyczne klientom?",
+        "all_answers": [
+            "BPMN",
+            "LOVC",
+            "IDEF3",
+            "UML"
+        ],
+        "correct_answers": [
+            "LOVC"
+        ]
+    },
+    {
+        "question_text": "Element diagramu/mapy procesu segregacji przesyłek pocztowych, określający decyzje operatora czy dany list powinien znaleźć się w odpowiednim pojemniku lub zostać zwrócony do nadawcy, będzie :",
+        "all_answers": [
+            "Bramką",
+            "Zdarzeniem",
+            "Przepływem",
+            "Aktywnością"
+        ],
+        "correct_answers": [
+            "Bramką"
+        ]
+    },
+    {
+        "question_text": "Dobra notacja charakteryzuje się następującymi cechami:",
+        "all_answers": [
+            "Jednoznaczność, Mierzalność, Unikalność symboliki, Kreatywność",
+            "Jednoznaczność, Mierzalność, Dostarczanie produktu, Systematyczność",
+            "Posiadanie swojej semantyki, Zasadniczość, Mierzalność, Systematyczność, Dostarczanie produktu",
+            "Jednoznaczność, Mierzalność, Unikalność symboliki, Posiadanie swojej semantyki"
+        ],
+        "correct_answers": [
+            "Jednoznaczność, Mierzalność, Unikalność symboliki, Posiadanie swojej semantyki"
+        ]
+    },
+    {
+        "question_text": "Wykres / diagram, dzięki któremu możemy przedstawić czasowy przebieg procesu i jego kluczowe kroki.",
+        "all_answers": [
+            "UML",
+            "Schemat LOVC",
+            "BPMS",
+            "Diagram Gantta"
+        ],
+        "correct_answers": [
+            "Diagram Gantta"
+        ]
+    },
+    {
+        "question_text": "Zostałeś poproszony o wykonanie w notacji BPMN prostego schematu procesu. Które z poznanych funkcji są wystarczające do jego wykonania?",
+        "all_answers": [
+            "Elementy przepływu, łączniki oraz grupy.",
+            "Elementy przepływu i artefakty",
+            "Elementy przepływu i łączniki.",
+            "Elementy przepływu, łączniki i miejsca realizacji"
+        ],
+        "correct_answers": [
+            "Elementy przepływu i łączniki."
+        ]
+    },
+    {
+        "question_text": "Jaką rolę pełni diagram SIPOC?",
+        "all_answers": [
+            "Diagram SIPOC jest stosowany wyłącznie jako narzędzie pomiarowe w metodzie DMAIC.",
+            "Diagram SIPOC jest stosowany jako narzędzie pomiarowe w metodzie DMAIC. Pozwala na mapowanie strumienia wartości procesu.",
+            "Diagram SIPOC jest stosowany do określenia wszystkich elementów procesu oraz jako narzędzie pomiarowe w metodzie DMAIC. Pozwala na zobrazowanie procesu, który może nie być optymalnie zdefiniowany. Uwidacznia też braki co pozwala zdiagnozować problemy w procesie.",
+            "Diagram SIPOC jest stosowany jako narzędzie pomiarowe w metodzie DMAIC. Pozwala na zobrazowanie procesu, który może nie być optymalnie zdefiniowany. Uwidacznia braki co pozwala zdiagnozować problemy w procesie. Zwraca szczególną rolę na klienta w procesie."
+        ],
+        "correct_answers": [
+            "Diagram SIPOC jest stosowany do określenia wszystkich elementów procesu oraz jako narzędzie pomiarowe w metodzie DMAIC. Pozwala na zobrazowanie procesu, który może nie być optymalnie zdefiniowany. Uwidacznia też braki co pozwala zdiagnozować problemy w procesie."
+        ]
+    },
+    {
+        "question_text": "Jak nazywa się notacja wymyślona dla specjalistów ds. sprzedaży prezentujących narzędzia informatyczne klientom?",
+        "all_answers": [
+            "BPMN",
+            "LOVC",
+            "IDEF3",
+            "UML"
+        ],
+        "correct_answers": [
+            "LOVC"
+        ]
+    },
+    {
+        "question_text": "Element diagramu/mapy procesu segregacji przesyłek pocztowych, określający decyzje operatora czy dany list powinien znaleźć się w odpowiednim pojemniku lub zostać zwrócony do nadawcy, będzie :",
+        "all_answers": [
+            "Bramką",
+            "Zdarzeniem",
+            "Przepływem",
+            "Aktywnością"
+        ],
+        "correct_answers": [
+            "Bramką"
+        ]
+    },
+    {
+        "question_text": "Dobra notacja charakteryzuje się następującymi cechami:",
+        "all_answers": [
+            "Jednoznaczność, Mierzalność, Unikalność symboliki, Kreatywność",
+            "Jednoznaczność, Mierzalność, Dostarczanie produktu, Systematyczność",
+            "Posiadanie swojej semantyki, Zasadniczość, Mierzalność, Systematyczność, Dostarczanie produktu",
+            "Jednoznaczność, Mierzalność, Unikalność symboliki, Posiadanie swojej semantyki"
+        ],
+        "correct_answers": [
+            "Jednoznaczność, Mierzalność, Unikalność symboliki, Posiadanie swojej semantyki"
+        ]
+    },
+    {
+        "question_text": "Wykres / diagram, dzięki któremu możemy przedstawić czasowy przebieg procesu i jego kluczowe kroki.",
+        "all_answers": [
+            "UML",
+            "Schemat LOVC",
+            "BPMS",
+            "Diagram Gantta"
+        ],
+        "correct_answers": [
+            "Diagram Gantta"
+        ]
+    },
+    {
+        "question_text": "Zostałeś poproszony o wykonanie w notacji BPMN prostego schematu procesu. Które z poznanych funkcji są wystarczające do jego wykonania?",
+        "all_answers": [
+            "Elementy przepływu, łączniki oraz grupy.",
+            "Elementy przepływu i artefakty",
+            "Elementy przepływu i łączniki.",
+            "Elementy przepływu, łączniki i miejsca realizacji"
+        ],
+        "correct_answers": [
+            "Elementy przepływu i łączniki."
+        ]
+    },
+    {
+        "question_text": "Element diagramu/mapy procesu segregacji przesyłek pocztowych, określający decyzje operatora czy dany list powinien znaleźć się w odpowiednim pojemniku lub zostać zwrócony do nadawcy, będzie :",
+        "all_answers": [
+            "Przepływem",
+            "Aktywnością",
+            "Bramką",
+            "Zdarzeniem"
+        ],
+        "correct_answers": [
+            "Bramką"
+        ]
+    },
+    {
+        "question_text": "Wykres / diagram, dzięki któremu możemy przedstawić czasowy przebieg procesu i jego kluczowe kroki.",
+        "all_answers": [
+            "Diagram Gantta",
+            "UML",
+            "BPMS",
+            "Schemat LOVC"
+        ],
+        "correct_answers": [
+            "Diagram Gantta"
+        ]
+    },
+    {
+        "question_text": "Jak nazywa się notacja wymyślona dla specjalistów ds. sprzedaży prezentujących narzędzia informatyczne klientom?",
+        "all_answers": [
+            "LOVC",
+            "IDEF3",
+            "BPMN",
+            "UML"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "SIPOC oznacza:",
+        "all_answers": [
+            "Supplier Input Process Output Customer",
+            "Supplier Initiate Proces Output Customer",
+            "Supply Initiate Perform Output Customer",
+            "Supplier Initiate Proces Output Client"
+        ],
+        "correct_answers": [
+            "Supplier Input Process Output Customer"
+        ]
+    },
+    {
+        "question_text": "Zostałeś poproszony o wykonanie w notacji BPMN prostego schematu procesu. Które z poznanych funkcji są wystarczające do jego wykonania?",
+        "all_answers": [
+            "Elementy przepływu i artefakty",
+            "Elementy przepływu, łączniki i miejsca realizacji",
+            "Elementy przepływu, łączniki oraz grupy.",
+            "Elementy przepływu i łączniki."
+        ],
+        "correct_answers": [
+            "Elementy przepływu i łączniki."
+        ]
+    },
+    {
+        "question_text": "Jaką formułę procesu wybierzesz, jeżeli chcesz opisać wyłącznie głównego dostawcę procesu?",
+        "all_answers": [
+            "Publiczny",
+            "Globalny",
+            "Prywatny oraz publiczny spełnia wymagane kryteria",
+            "Prywatny"
+        ],
+        "correct_answers": [
+            "Prywatny"
+        ]
+    },
+    {
+        "question_text": "Źródłem CMM jest:",
+        "all_answers": [
+            "Zintegrowany rozwój produktów i procesów",
+            "Dostawa sourcingu (dojrzałość organizacyjna)",
+            "Odpowiedź na zapotrzebowanie sektora usług.",
+            "Inżynieria oprogramowania"
+        ],
+        "correct_answers": [
+            "Zintegrowany rozwój produktów i procesów",
+            "Inżynieria oprogramowania"
+        ]
+    },
+    {
+        "question_text": "W CMMI mierzymy dojrzałość procesów lub organizacji (wybierz najbardziej poprawną z odpowiedzi):",
+        "all_answers": [
+            "przy pomocy praktyk",
+            "przy pomocy skali ocen",
+            "w jednej ścieżce zwanej model dojrzałości",
+            "w dwóch modelach etapowym i ciągłym"
+        ],
+        "correct_answers": [
+            "w dwóch modelach etapowym i ciągłym"
+        ]
+    },
+    {
+        "question_text": "Kluczową różnicą w analizie procesów między modelem etapowym a ciągłym jest:",
+        "all_answers": [
+            "W modelu etapowym odnosimy model dojrzałości do aspektu organizacji i stosowanych procesów, natomiast w modelu ciągłym - wyłącznie do organizacji.",
+            "Tylko ciągła reprezentacja pozwala na porównanie zmian przekrojowo dla całej organizacji",
+            "Stosowanie mechanizmu równoważności. Zależnie od modelu stosujemy bądź nie stosujemy tego podejścia.",
+            "Podejście do praktyk. Różnica w podejściu do nich uzależniona jest od modelu"
+        ],
+        "correct_answers": [
+            "Stosowanie mechanizmu równoważności. Zależnie od modelu stosujemy bądź nie stosujemy tego podejścia.",
+            "Podejście do praktyk. Różnica w podejściu do nich uzależniona jest od modelu"
+        ]
+    },
+    {
+        "question_text": "Proces rozliczania faktur w firmie finansowo księgowej SXV odbywa się manualnie. Pracownicy otrzymują plik dokumentów, a następnie wprowadzają je do systemu, system je weryfikuje, a pracownicy je drukują, stemplują i wysyłają do klientów. Wszystkie dane trzeba wprowadzać manualnie. Ten proces jest (w modelu etapowym ):",
+        "all_answers": [
+            "Optymalizujący",
+            "Podstawowy",
+            "Zdefiniowany",
+            "Zarządzany ilościowo"
+        ],
+        "correct_answers": [
+            "Podstawowy"
+        ]
+    },
+    {
+        "question_text": "Według modelu etapowego, na którym poziomie dojrzałości znajduje się organizacja, w której opis procesów i procedury dla projektu są dostosowywane z zestawu standardowych procesów organizacyjnych do konkretnego projektu lub jednostki organizacyjnej?",
+        "all_answers": [
+            "Wykonywany",
+            "Podstawowy",
+            "Optymalizujący",
+            "Zdefiniowany (dojrzałość organizacyjna)"
+        ],
+        "correct_answers": [
+            "Zdefiniowany (dojrzałość organizacyjna)"
+        ]
+    },
+    {
+        "question_text": "Twój szef poprosił, abyś powiedział czy organizacja jest gotowa do ekspansji. Firma CoeABC planuje wprowadzić nową usługę. Jej celem jest zdobycie nowych segmentów rynku zajętych do tej pory przez większych graczy. Chce dostarczać oprogramowanie i obsługę techniczną systemu bankomatów jednego z największych banków w kraju. Obecnie procesy organizacji znajdują się na poziomie 3 w modelu etapowym. Co musi się wydarzyć, aby organizacja przeszła na wyższy poziom?",
+        "all_answers": [
+            "Organizacja i procesy powinny spełniać wszystkie warunki poziomu 3 modelu dojrzałości. Powinny korzystać z metod jakościowych i ilościowych. Efektywne mierzenie procesu jest wystarczające, aby przejść na wyższy poziom.",
+            "Organizacja i procesy powinny spełniać wszystkie warunki poziomu 3 modelu dojrzałości. Powinno się wprowadzić metody statystyczne do mierzenia i kontrolowania procesów. Dzięki temu, procesy uzyskają wyższy poziom dojrzałości i będą mogły lepiej odpowiedzieć na zapotrzebowanie biznesu. Kluczowym parametrem jest przewidywalność procesu.",
+            "Utrzymajmy kluczowe parametry poziomu 3. Następnie, aby odpowiedzieć na zapotrzebowanie biznesu zaprojektujemy nowe procesy, które będą spełniać wymagania poziomu 4. Dzięki temu będziemy konkurencyjni wobec pozostałych podmiotów.",
+            "Wystarczy utrzymywać wszystkie kluczowe cechy poziomu 3 plus dodać parametry jakościowe, które pozwolą odnieść się do konkretnych elementów procesu i usługi."
+        ],
+        "correct_answers": [
+            "Organizacja i procesy powinny spełniać wszystkie warunki poziomu 3 modelu dojrzałości. Powinno się wprowadzić metody statystyczne do mierzenia i kontrolowania procesów. Dzięki temu, procesy uzyskają wyższy poziom dojrzałości i będą mogły lepiej odpowiedzieć na zapotrzebowanie biznesu. Kluczowym parametrem jest przewidywalność procesu."
+        ]
+    },
+    {
+        "question_text": "Która z poniższych sekwencji jest elementem mapowania procesu w metodzie BPM?",
+        "all_answers": [
+            "Wartość procesu",
+            "Podejmowanie decyzji",
+            "Modelowanie procesu",
+            "Wirtualizacja"
+        ],
+        "correct_answers": [
+            "Modelowanie procesu"
+        ]
+    },
+    {
+        "question_text": "Stosując metody 5S odpowiedz, co i w jakiej kolejności zrobisz, aby poprawić proces produkcji laptopów.",
+        "all_answers": [
+            "Przegląd linii produkcyjnej i odrzucenie elementów zbędnych do czynności produkcyjnej. Przedmioty używane do produkcji powinny być w zasięgu wzroku pracowników. Stanowisko pracy powinno być sprzątane po każdej zmianie. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie. Należy przestrzegać tych wartości systematycznie, aby utrzymać poziom produkcji.",
+            "Przegląd linii produkcyjnej. Przedmioty używane do produkcji powinny być usystematyzowane i dostępne. Stanowisko pracy powinno być sprzątane po każdej zmianie. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie.",
+            "Przegląd linii produkcyjnej i odrzucenie elementów zbędnych do czynności produkcyjnej. Przedmioty używane do produkcji powinny być usystematyzowane i dostępne. Stanowisko pracy powinno być sprzątane po każdej zmianie. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie. Należy przestrzegać tych wartości systematycznie, aby utrzymać poziom produkcji.",
+            "Przegląd linii produkcyjnej i odrzucenie elementów zbędnych do czynności produkcyjnej. Przedmioty używane do produkcji powinny być usystematyzowane i dostępne. Stanowisko pracy powinno być sprzątane regularnie, nie częściej niż raz w tygodniu, aby nie paraliżować procesu produkcji. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie. Należy przestrzegać tych wartości systematycznie, aby utrzymać poziom produkcji."
+        ],
+        "correct_answers": [
+            "Przegląd linii produkcyjnej i odrzucenie elementów zbędnych do czynności produkcyjnej. Przedmioty używane do produkcji powinny być usystematyzowane i dostępne. Stanowisko pracy powinno być sprzątane po każdej zmianie. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie. Należy przestrzegać tych wartości systematycznie, aby utrzymać poziom produkcji."
+        ]
+    },
+    {
+        "question_text": "Jesteś managerem zmiany w dużej organizacji. Zostałeś poproszony o przeprojektowanie procesu organizacji wyjazdów służbowych dla pracowników. Który z poniższych elementów będzie odpowiedni dla re-narzędziowania tego procesu?",
+        "all_answers": [
+            "Wykorzystanie aplikacji do zdobywania zgód na podróże i ich organizację",
+            "Mierzenie czy proces funkcjonuje poprawnie",
+            "Eliminowanie niepotrzebnych elementów procesu",
+            "Szkolenia dla pracowników informujące o zmianie"
+        ],
+        "correct_answers": [
+            "Wykorzystanie aplikacji do zdobywania zgód na podróże i ich organizację"
+        ]
+    },
+    {
+        "question_text": "ITIL definiuje wartość jako użyteczność i gwarancję. Twoja firma jest właścicielem płatnej nawigacji samochodowej. Jakie elementy będą stanowiły o wartości usługi?",
+        "all_answers": [
+            "Czy system nawigacji wyłapuje GPS, i naprowadza użytkownika poprawnie? W ramach gwarancji upewniamy się, że aspekt dostępności, pojemności, bezpieczeństwa oraz zarządzania zmianą jest spełniony.",
+            "Po pierwsze aspekt użyteczności. Czy aplikacja spełnia wszystkie kluczowe funkcje i działa intuicyjnie i spełnia oczekiwania klienta? W ramach gwarancji upewniamy się, że aspekt dostępności, ciągłości, pojemności, bezpieczeństwa jest spełniony.",
+            "Po pierwsze aspekt użyteczności. Czy aplikacja spełnia wszystkie kluczowe funkcje i działa intuicyjnie i spełnia oczekiwania klienta? W ramach gwarancji upewniamy się, że aspekt dostępności, ciągłości, pojemności, bezpieczeństwa oraz zarządzania zmianą jest spełniony.",
+            "Po pierwsze aspekt użyteczności. Czy aplikacja spełnia wszystkie kluczowe funkcje i działa intuicyjnie i spełnia oczekiwania klienta? W ramach gwarancji upewniamy się, że klient zgłaszając awarię otrzyma wsparcie i zostanie mu zaproponowane rozwiązanie."
+        ],
+        "correct_answers": [
+            "Po pierwsze aspekt użyteczności. Czy aplikacja spełnia wszystkie kluczowe funkcje i działa intuicyjnie i spełnia oczekiwania klienta? W ramach gwarancji upewniamy się, że aspekt dostępności, ciągłości, pojemności, bezpieczeństwa jest spełniony."
+        ]
+    },
+    {
+        "question_text": "Fazą ITIL, która odpowiada za zarządzanie procesami usługowymi i upewnianiu się, że ich bieżąca działalność dostarcza wartość, jest:",
+        "all_answers": [
+            "Continual Service Improvement",
+            "Service Strategy",
+            "Service Desing",
+            "Service Operation"
+        ],
+        "correct_answers": [
+            "Service Operation"
+        ]
+    },
+    {
+        "question_text": "Który z poniższych elementów będzie charakterystyką metodyki Agile.",
+        "all_answers": [
+            "Otwarta komunikacja",
+            "Ludzie i interakcje ponad procesy i narzędzia",
+            "Elastyczność",
+            "Reagowanie na zmiany ponad podążania za planem"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Rozwiń skrót PDCA:",
+        "all_answers": [
+            "Plan Do Check Accept",
+            "Plan Do Check Act",
+            "Progres Do Check Act",
+            "Planning Checking Acting Doing"
+        ],
+        "correct_answers": [
+            "Plan Do Check Act"
+        ]
+    },
+    {
+        "question_text": "Zostałeś poproszony przez swojego przełożonego o wdrożenie programu naprawczego metodą BPR dla procesów w organizacji. Jakie obszary będą Twoim punktem odniesienia?",
+        "all_answers": [
+            "Strategia organizacji, poszukiwanie usprawnień w procesie, wdrożenie zmian.",
+            "Re-narzędziowanie, re-projektowanie i re-orientacja.",
+            "Re-narzędziowanie, re-orientacja i re-implementacja.",
+            "Re-definiowanie, re-orientacja i re-implementacja."
+        ],
+        "correct_answers": [
+            "Re-narzędziowanie, re-projektowanie i re-orientacja."
+        ]
+    },
+    {
+        "question_text": "Jesteś managerem procesu, który buduje swój zespół wokół metodologii Agile. Jak zbudujesz taki zespół?",
+        "all_answers": [
+            "Zespół powinien zbudować platformę porozumienia przez zbudowanie kontraktu, zdefiniowanie wspólnego celu działania. Zespołowe poczucie odpowiedzialności przy użyciu narzędzi metodologii zwinnych pozwoli osiągnąć sukces.",
+            "Agile to metodologia, która stawia na dostarczanie wartości. Najważniejsze będzie, aby lider zespołu samodzielnie wykreował zasady i jasno je określił, a potem efektywnie rozdzielał zadania.",
+            "Trzeba postępować zgodnie z iteracyjnym podejściem, przeanalizować, zaplanować, testować i wdrażać.",
+            "Należy wykorzystać narzędzia, o których mówi metodologia. Zespołowe poczucie odpowiedzialności zostanie wówczas zbudowane, a zespół będzie funkcjonował jak należy."
+        ],
+        "correct_answers": [
+            "Zespół powinien zbudować platformę porozumienia przez zbudowanie kontraktu, zdefiniowanie wspólnego celu działania. Zespołowe poczucie odpowiedzialności przy użyciu narzędzi metodologii zwinnych pozwoli osiągnąć sukces."
+        ]
+    },
+    {
+        "question_text": "Głównym obszarem zainteresowania TQM jest:",
+        "all_answers": [
+            "Całościowe wspieranie procesu zarządzania organizacją",
+            "Podnoszenie wydajności procesów wykorzystując narzędzia TQM",
+            "Stałe podnoszenie zysków organizacji",
+            "Podnoszenie jakości w organizacji przez ograniczanie marnotrawstwa"
+        ],
+        "correct_answers": [
+            "Całościowe wspieranie procesu zarządzania organizacją"
+        ]
+    },
+    {
+        "question_text": "Masz do zrealizowania skomplikowany i złożony oraz analityczny projekt poprawy procesu biznesowego. Którą z poniższych metod wybierzesz?",
+        "all_answers": [
+            "DMADV",
+            "Lean",
+            "DMAIC",
+            "Value stream mapping"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Twoim zadaniem jest ustalenie z klientem szczegółów usługi i przygotowanie pakietu, który pozwoli wdrożyć tę usługę w życie. Która faza cyklu życia ITIL będzie się tym zajmować?",
+        "all_answers": [
+            "Service Operation",
+            "Service Design",
+            "Service Transition",
+            "Service Strategy"
+        ],
+        "correct_answers": [
+            "Service Design"
+        ]
+    },
+    {
+        "question_text": "Zostałeś poproszony przez swojego przełożonego o wdrożenie programu naprawczego metodą BPR dla procesów w organizacji. Jakie obszary będą Twoim punktem odniesienia?",
+        "all_answers": [
+            "Re-narzędziowanie, re-orientacja i re-implementacja.",
+            "Re-definiowanie, re-orientacja i re-implementacja.",
+            "Strategia organizacji, poszukiwanie usprawnień w procesie, wdrożenie zmian.",
+            "Re-narzędziowanie, re-projektowanie i re-orientacja."
+        ],
+        "correct_answers": [
+            "Re-narzędziowanie, re-projektowanie i re-orientacja."
+        ]
+    },
+    {
+        "question_text": "Statystyczna analiza procesu jest prowadzona, aby:",
+        "all_answers": [
+            "Na wykresie zobaczyć przebieg procesu w formie liczbowej",
+            "Stwierdzić dlaczego nastąpiło odchylenie od standardowego przebiegu procesu",
+            "Na wykresie zaobserwować najlepsze i najgorsze parametry procesu",
+            "Zdiagnozować odchylenia od normalnego przebiegu procesu i zadziałać proaktywnie"
+        ],
+        "correct_answers": [
+            "Zdiagnozować odchylenia od normalnego przebiegu procesu i zadziałać proaktywnie"
+        ]
+    },
+    {
+        "question_text": "Który z poniższych elementów będzie charakterystyką metodyki Agile.",
+        "all_answers": [
+            "Reagowanie na zmiany ponad podążania za planem",
+            "Ludzie i interakcje ponad procesy i narzędzia",
+            "Otwarta komunikacja",
+            "Elastyczność"
+        ],
+        "correct_answers": [
+            "Elastyczność"
+        ]
+    },
+    {
+        "question_text": "Jeżeli proces jest przedstawiony jako sieć korelacji pomiędzy nim a innymi procesami w organizacji, to mamy do czynienia z:",
+        "all_answers": [
+            "modelem procesu",
+            "schematem procesu",
+            "mapą procesu",
+            "matrycą procesu"
+        ],
+        "correct_answers": [
+            "matrycą procesu"
+        ]
+    },
+    {
+        "question_text": "Stosując metody 5S odpowiedz, co i w jakiej kolejności zrobisz, aby poprawić proces produkcji laptopów.",
+        "all_answers": [
+            "Przegląd linii produkcyjnej. Przedmioty używane do produkcji powinny być usystematyzowane i dostępne. Stanowisko pracy powinno być sprzątane po każdej zmianie. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie.",
+            "Przegląd linii produkcyjnej i odrzucenie elementów zbędnych do czynności produkcyjnej. Przedmioty używane do produkcji powinny być w zasięgu wzroku pracowników. Stanowisko pracy powinno być sprzątane po każdej zmianie. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie. Należy przestrzegać tych wartości systematycznie, aby utrzymać poziom produkcji.",
+            "Przegląd linii produkcyjnej i odrzucenie elementów zbędnych do czynności produkcyjnej. Przedmioty używane do produkcji powinny być usystematyzowane i dostępne. Stanowisko pracy powinno być sprzątane po każdej zmianie. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie. Należy przestrzegać tych wartości systematycznie, aby utrzymać poziom produkcji.",
+            "Przegląd linii produkcyjnej i odrzucenie elementów zbędnych do czynności produkcyjnej. Przedmioty używane do produkcji powinny być usystematyzowane i dostępne. Stanowisko pracy powinno być sprzątane regularnie, nie częściej niż raz w tygodniu, aby nie paraliżować procesu produkcji. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie. Należy przestrzegać tych wartości systematycznie, aby utrzymać poziom produkcji."
+        ],
+        "correct_answers": [
+            "Przegląd linii produkcyjnej i odrzucenie elementów zbędnych do czynności produkcyjnej. Przedmioty używane do produkcji powinny być usystematyzowane i dostępne. Stanowisko pracy powinno być sprzątane po każdej zmianie. Proces należy ustandaryzować, aby poprawić jego funkcjonowanie. Należy przestrzegać tych wartości systematycznie, aby utrzymać poziom produkcji."
+        ]
+    },
+    {
+        "question_text": "Fazą ITIL, która odpowiada za zarządzanie procesami usługowymi i upewnianiu się, że ich bieżąca działalność dostarcza wartość, jest:",
+        "all_answers": [
+            "Service Strategy",
+            "Service Desing",
+            "Service Operation",
+            "Continual Service Improvement"
+        ],
+        "correct_answers": [
+            "Service Operation"
+        ]
+    },
+    {
+        "question_text": "Jesteś managerem procesu, który buduje swój zespół wokół metodologii Agile. Jak zbudujesz taki zespół?",
+        "all_answers": [
+            "Należy wykorzystać narzędzia, o których mówi metodologia. Zespołowe poczucie odpowiedzialności zostanie wówczas zbudowane, a zespół będzie funkcjonował jak należy.",
+            "Trzeba postępować zgodnie z iteracyjnym podejściem, przeanalizować, zaplanować, testować i wdrażać.",
+            "Agile to metodologia, która stawia na dostarczanie wartości. Najważniejsze będzie, aby lider zespołu samodzielnie wykreował zasady i jasno je określił, a potem efektywnie rozdzielał zadania.",
+            "Zespół powinien zbudować platformę porozumienia przez zbudowanie kontraktu, zdefiniowanie wspólnego celu działania. Zespołowe poczucie odpowiedzialności przy użyciu narzędzi metodologii zwinnych pozwoli osiągnąć sukces."
+        ],
+        "correct_answers": [
+            "Zespół powinien zbudować platformę porozumienia przez zbudowanie kontraktu, zdefiniowanie wspólnego celu działania. Zespołowe poczucie odpowiedzialności przy użyciu narzędzi metodologii zwinnych pozwoli osiągnąć sukces."
+        ]
+    },
+    {
+        "question_text": "W ramach cyklu życia modelu procesu, kluczowe elementy fazy Run-time, to:",
+        "all_answers": [
+            "weryfikacja",
+            "realizacja i monitorowanie procesu",
+            "walidacja i analiza wydajności",
+            "modelowanie procesu"
+        ],
+        "correct_answers": [
+            "realizacja i monitorowanie procesu"
+        ]
+    },
+    {
+        "question_text": "Rozwiń skrót PDCA:",
+        "all_answers": [
+            "Plan Do Check Act",
+            "Planning Checking Acting Doing",
+            "Plan Do Check Accept",
+            "Progres Do Check Act"
+        ],
+        "correct_answers": [
+            "Plan Do Check Act"
+        ]
+    },
+    {
+        "question_text": "Twój Szef poprosił Cię o wybranie metodologii, którą zastosuje do całościowego zaprojektowania procesów do usługi. Która z wymienionych metodologii będzie najbardziej odpowiednia?",
+        "all_answers": [
+            "ITIL",
+            "BPM",
+            "Agile",
+            "BPR"
+        ],
+        "correct_answers": [
+            "ITIL"
+        ]
+    },
+    {
+        "question_text": "Zostałeś poproszony o wytworzenie modelu procesu w oparciu o BPM. Model procesu ma dotyczyć wsparcia aplikacji umożliwiającej prowadzenie operacji finansowo-księgowych. Jakie elementy musisz uwzględnić, aby proces dobrze odzwierciedlał tę metodologię?",
+        "all_answers": [
+            "Dokonuję analizy oczekiwań klienta oraz porównuję je z zapisami umowy. Pamiętam o strategii biznesowej, ale jest ona tylko górnolotnym nakreśleniem. Na tej podstawie tworzę ramowy model procesu, a resztę uzupełniam bazując na posiadanych informacjach z wewnątrz i z zewnątrz organizacji, takich jak cele i funkcjonalności.",
+            "Strategia przedsiębiorstwa nie jest istotna w odniesieniu do procesów. Kluczowe jest dostarczenie wartości oraz zdefiniowanie optymalnych funkcjonalności, które odpowiedzą na zapotrzebowanie klienta.",
+            "Odniesienie do strategii biznesowej naszej firmy i klienta. Ustalenie, jakie funkcje powinna spełniać aplikacja oraz jakie są cele i założenia dotyczące jej funkcjonowania zarówno od strony dostawcy, jak i odbiorcy usługi. Zdefiniować i zrozumieć łańcuch wartości wynikający z produktu, a także jasno określić wynik procesu.",
+            "Najważniejsza jest analiza łańcucha wartości. Jeśli rozumiemy, jaką wartość mamy dostarczyć, to na tej bazie możemy zbudować efektywny model procesu."
+        ],
+        "correct_answers": [
+            "Odniesienie do strategii biznesowej naszej firmy i klienta. Ustalenie, jakie funkcje powinna spełniać aplikacja oraz jakie są cele i założenia dotyczące jej funkcjonowania zarówno od strony dostawcy, jak i odbiorcy usługi. Zdefiniować i zrozumieć łańcuch wartości wynikający z produktu, a także jasno określić wynik procesu."
+        ]
+    },
+    {
+        "question_text": "Zgodnie z modelem orientacji procesowej faza analizy służy do",
+        "all_answers": [
+            "ilościowej weryfikacji jakości modelu procesu",
+            "obserwowania przebiegu procesu",
+            "automatyzacja procesów",
+            "wykrywanie dysfunkcjonalności procesu"
+        ],
+        "correct_answers": [
+            "ilościowej weryfikacji jakości modelu procesu"
+        ]
+    },
+    {
+        "question_text": "Głównym obszarem zainteresowania TQM jest:",
+        "all_answers": [
+            "Całościowe wspieranie procesu zarządzania organizacją",
+            "Podnoszenie wydajności procesów wykorzystując narzędzia TQM",
+            "Stałe podnoszenie zysków organizacji",
+            "Podnoszenie jakości w organizacji przez ograniczanie marnotrawstwa"
+        ],
+        "correct_answers": [
+            "Całościowe wspieranie procesu zarządzania organizacją"
+        ]
+    },
+    {
+        "question_text": "Zostałeś poproszony o wytworzenie modelu procesu w oparciu o BPM. Model procesu ma dotyczyć wsparcia aplikacji umożliwiającej prowadzenie operacji finansowo-księgowych. Jakie elementy musisz uwzględnić, aby proces dobrze odzwierciedlał tę metodologię?",
+        "all_answers": [
+            "Najważniejsza jest analiza łańcucha wartości. Jeśli rozumiemy, jaką wartość mamy dostarczyć, to na tej bazie możemy zbudować efektywny model procesu.",
+            "Dokonuję analizy oczekiwań klienta oraz porównuję je z zapisami umowy. Pamiętam o strategii biznesowej, ale jest ona tylko górnolotnym nakreśleniem. Na tej podstawie tworzę ramowy model procesu, a resztę uzupełniam bazując na posiadanych informacjach z wewnątrz i z zewnątrz organizacji, takich jak cele i funkcjonalności.",
+            "Odniesienie do strategii biznesowej naszej firmy i klienta. Ustalenie, jakie funkcje powinna spełniać aplikacja oraz jakie są cele i założenia dotyczące jej funkcjonowania zarówno od strony dostawcy, jak i odbiorcy usługi. Zdefiniować i zrozumieć łańcuch wartości wynikający z produktu, a także jasno określić wynik procesu.",
+            "Strategia przedsiębiorstwa nie jest istotna w odniesieniu do procesów. Kluczowe jest dostarczenie wartości oraz zdefiniowanie optymalnych funkcjonalności, które odpowiedzą na zapotrzebowanie klienta."
+        ],
+        "correct_answers": [
+            "Odniesienie do strategii biznesowej naszej firmy i klienta. Ustalenie, jakie funkcje powinna spełniać aplikacja oraz jakie są cele i założenia dotyczące jej funkcjonowania zarówno od strony dostawcy, jak i odbiorcy usługi. Zdefiniować i zrozumieć łańcuch wartości wynikający z produktu, a także jasno określić wynik procesu."
+        ]
+    },
+    {
+        "question_text": "Jesteś managerem zmiany w dużej organizacji. Zostałeś poproszony o przeprojektowanie procesu organizacji wyjazdów służbowych dla pracowników. Który z poniższych elementów będzie odpowiedni dla re-narzędziowania tego procesu?",
+        "all_answers": [
+            "Szkolenia dla pracowników informujące o zmianie",
+            "Wykorzystanie aplikacji do zdobywania zgód na podróże i ich organizację",
+            "Mierzenie czy proces funkcjonuje poprawnie",
+            "Eliminowanie niepotrzebnych elementów procesu"
+        ],
+        "correct_answers": [
+            "Wykorzystanie aplikacji do zdobywania zgód na podróże i ich organizację"
+        ]
+    },
+    {
+        "question_text": "Zgodnie z modelem orientacji procesowej faza analizy służy do",
+        "all_answers": [
+            "ilościowej weryfikacji jakości modelu procesu",
+            "automatyzacja procesów",
+            "wykrywanie dysfunkcjonalności procesu",
+            "obserwowania przebiegu procesu"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "W ramach cyklu życia modelu procesu, kluczowe elementy fazy Run-time, to:",
+        "all_answers": [
+            "weryfikacja",
+            "modelowanie procesu",
+            "walidacja i analiza wydajności",
+            "realizacja i monitorowanie procesu"
+        ],
+        "correct_answers": [
+            "realizacja i monitorowanie procesu"
+        ]
+    },
+    {
+        "question_text": "Twoim zadaniem jest ustalenie z klientem szczegółów usługi i przygotowanie pakietu, który pozwoli wdrożyć tę usługę w życie. Która faza cyklu życia ITIL będzie się tym zajmować?",
+        "all_answers": [
+            "Service Design",
+            "Service Operation",
+            "Service Transition",
+            "Service Strategy"
+        ],
+        "correct_answers": [
+            "Service Design"
+        ]
+    },
+    {
+        "question_text": "Statystyczna analiza procesu jest prowadzona, aby:",
+        "all_answers": [
+            "Stwierdzić dlaczego nastąpiło odchylenie od standardowego przebiegu procesu",
+            "Na wykresie zobaczyć przebieg procesu w formie liczbowej",
+            "Zdiagnozować odchylenia od normalnego przebiegu procesu i zadziałać proaktywnie",
+            "Na wykresie zaobserwować najlepsze i najgorsze parametry procesu"
+        ],
+        "correct_answers": [
+            "Zdiagnozować odchylenia od normalnego przebiegu procesu i zadziałać proaktywnie"
+        ]
+    },
+    {
+        "question_text": "Która z poniższych sekwencji jest elementem mapowania procesu w metodzie BPM?",
+        "all_answers": [
+            "Modelowanie procesu",
+            "Podejmowanie decyzji",
+            "Wartość procesu",
+            "Wirtualizacja"
+        ],
+        "correct_answers": [
+            "Modelowanie procesu",
+            "Wartość procesu"
+        ]
+    },
+    {
+        "question_text": "Twój Szef poprosił Cię o wybranie metodologii, którą zastosuje do całościowego zaprojektowania procesów do usługi. Która z wymienionych metodologii będzie najbardziej odpowiednia?",
+        "all_answers": [
+            "ITIL",
+            "BPM",
+            "BPR",
+            "Agile"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "Jeżeli proces jest przedstawiony jako sieć korelacji pomiędzy nim a innymi procesami w organizacji, to mamy do czynienia z:",
+        "all_answers": [
+            "mapą procesu",
+            "modelem procesu",
+            "matrycą procesu",
+            "schematem procesu"
+        ],
+        "correct_answers": []
+    },
+    {
+        "question_text": "ITIL definiuje wartość jako użyteczność i gwarancję. Twoja firma jest właścicielem płatnej nawigacji samochodowej. Jakie elementy będą stanowiły o wartości usługi?",
+        "all_answers": [
+            "Czy system nawigacji wyłapuje GPS, i naprowadza użytkownika poprawnie? W ramach gwarancji upewniamy się, że aspekt dostępności, pojemności, bezpieczeństwa oraz zarządzania zmianą jest spełniony.",
+            "Po pierwsze aspekt użyteczności. Czy aplikacja spełnia wszystkie kluczowe funkcje i działa intuicyjnie i spełnia oczekiwania klienta? W ramach gwarancji upewniamy się, że aspekt dostępności, ciągłości, pojemności, bezpieczeństwa jest spełniony.",
+            "Po pierwsze aspekt użyteczności. Czy aplikacja spełnia wszystkie kluczowe funkcje i działa intuicyjnie i spełnia oczekiwania klienta? W ramach gwarancji upewniamy się, że aspekt dostępności, ciągłości, pojemności, bezpieczeństwa oraz zarządzania zmianą jest spełniony.",
+            "Po pierwsze aspekt użyteczności. Czy aplikacja spełnia wszystkie kluczowe funkcje i działa intuicyjnie i spełnia oczekiwania klienta? W ramach gwarancji upewniamy się, że klient zgłaszając awarię otrzyma wsparcie i zostanie mu zaproponowane rozwiązanie."
+        ],
+        "correct_answers": [
+            "Po pierwsze aspekt użyteczności. Czy aplikacja spełnia wszystkie kluczowe funkcje i działa intuicyjnie i spełnia oczekiwania klienta? W ramach gwarancji upewniamy się, że aspekt dostępności, ciągłości, pojemności, bezpieczeństwa jest spełniony."
+        ]
+    },
+    {
+        "question_text": "Masz do zrealizowania skomplikowany i złożony oraz analityczny projekt poprawy procesu biznesowego. Którą z poniższych metod wybierzesz?",
+        "all_answers": [
+            "Value stream mapping",
+            "DMAIC",
+            "DMADV",
+            "Lean"
+        ],
+        "correct_answers": [
+            "DMAIC"
+        ]
+    }
+]
